@@ -30886,7 +30886,7 @@
     )
     (pin "X" (uuid 7a67e9e7-0f54-44b2-bcf1-2c0105879f8a))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_PB4") (unit 1)
         )
@@ -30911,7 +30911,7 @@
     )
     (pin "X" (uuid 5b4c4983-0fe0-42a1-83d7-2c097da26b5c))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_13") (unit 1)
         )
@@ -30936,7 +30936,7 @@
     )
     (pin "X" (uuid 04c974c0-0703-4a05-a75c-18aec378ab2f))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_3") (unit 1)
         )
@@ -30962,7 +30962,7 @@
     (pin "1" (uuid 67c188e5-ac6d-4c7d-86eb-f0717f6eb7e7))
     (pin "2" (uuid cb82fccf-5dec-40db-9db4-55421a76cde7))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "C9") (unit 1)
         )
@@ -30987,7 +30987,7 @@
     )
     (pin "X" (uuid ff554ead-04fa-42d3-a402-661c96b437be))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_D-0") (unit 1)
         )
@@ -30998,7 +30998,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:+5V") (at 228.6 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09f96123-8cdc-4e84-9633-6af6d6f7ad9e)
-    (property "Reference" "#P+2" (at 228.6 162.56 0)
+    (property "Reference" "#P+02" (at 228.6 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 230.505 160.02 90)
@@ -31012,9 +31012,9 @@
     )
     (pin "1" (uuid 16a4fe80-fb56-4070-ae54-ab1b4111d0e2))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#P+2") (unit 1)
+          (reference "#P+02") (unit 1)
         )
       )
     )
@@ -31037,7 +31037,7 @@
     )
     (pin "X" (uuid 1d1ab1b3-1095-4ef5-8314-b2521d236ea7))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_SCL0") (unit 1)
         )
@@ -31048,7 +31048,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 322.58 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d220c08-886a-4c25-9af5-333abae8982b)
-    (property "Reference" "#GND7" (at 322.58 99.06 0)
+    (property "Reference" "#GND07" (at 322.58 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 320.04 101.6 0)
@@ -31062,9 +31062,9 @@
     )
     (pin "1" (uuid fc2eff7e-ee89-4c64-b3ed-523097db2425))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND7") (unit 1)
+          (reference "#GND07") (unit 1)
         )
       )
     )
@@ -31087,7 +31087,7 @@
     )
     (pin "X" (uuid feba194b-a2ed-4064-9855-956afddba488))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_D+0") (unit 1)
         )
@@ -31098,7 +31098,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 73.66 228.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 103a8281-b006-4c36-ac8e-69382a954cd7)
-    (property "Reference" "#GND16" (at 73.66 228.6 0)
+    (property "Reference" "#GND016" (at 73.66 228.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.12 231.14 0)
@@ -31112,9 +31112,9 @@
     )
     (pin "1" (uuid 8248fca3-5d0e-4239-ae89-7edef70f7f17))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND16") (unit 1)
+          (reference "#GND016") (unit 1)
         )
       )
     )
@@ -31123,7 +31123,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 241.3 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11057dc0-2b17-4088-be50-f3a87711af61)
-    (property "Reference" "#GND5" (at 241.3 137.16 0)
+    (property "Reference" "#GND05" (at 241.3 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.76 139.7 0)
@@ -31137,9 +31137,9 @@
     )
     (pin "1" (uuid a3b932ac-a0c2-4b89-8331-1e4c0317e067))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND5") (unit 1)
+          (reference "#GND05") (unit 1)
         )
       )
     )
@@ -31163,7 +31163,7 @@
     (pin "1" (uuid 56f22c1a-e04a-44e4-9e3e-91c22357223c))
     (pin "2" (uuid c64efa22-359e-4db2-aef4-27e34a8d760e))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "F1") (unit 1)
         )
@@ -31174,7 +31174,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 264.16 147.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13f931d3-0434-4e79-ad67-ff18e8fff2ff)
-    (property "Reference" "#GND12" (at 264.16 147.32 0)
+    (property "Reference" "#GND012" (at 264.16 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 261.62 149.86 0)
@@ -31188,9 +31188,9 @@
     )
     (pin "1" (uuid 3d058f59-1bec-44bc-badf-7f81f66b60c8))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND12") (unit 1)
+          (reference "#GND012") (unit 1)
         )
       )
     )
@@ -31214,7 +31214,7 @@
     (pin "A" (uuid f9bcda9b-1c37-43af-9622-4f49ac68978c))
     (pin "C" (uuid 64614f27-9e2d-46bf-a56f-ae8365d992f2))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "D2") (unit 1)
         )
@@ -31240,7 +31240,7 @@
     (pin "A" (uuid fafc4c3f-53a8-4d4a-ad67-004cb53fd9f0))
     (pin "C" (uuid f4a60f74-511d-4561-bbf3-bf3fee7c1590))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TX0") (unit 1)
         )
@@ -31251,7 +31251,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:+5V") (at 287.02 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15d2e742-21fa-49e5-b49a-928dffe97b19)
-    (property "Reference" "#P+1" (at 287.02 149.86 0)
+    (property "Reference" "#P+01" (at 287.02 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 288.925 147.32 90)
@@ -31265,9 +31265,9 @@
     )
     (pin "1" (uuid cf8ab7bf-2a83-45d1-9950-b92c3040d218))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#P+1") (unit 1)
+          (reference "#P+01") (unit 1)
         )
       )
     )
@@ -31290,7 +31290,7 @@
     )
     (pin "X" (uuid 293ab3ed-2d3f-4981-9e75-19202d255371))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_A5") (unit 1)
         )
@@ -31316,7 +31316,7 @@
     (pin "1" (uuid c05a7982-f46c-4018-8d9a-22b618c7dfde))
     (pin "2" (uuid 828623e5-61ba-408d-b8e0-8a6a8c4a9a46))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "Y1") (unit 1)
         )
@@ -31348,7 +31348,7 @@
     (pin "4" (uuid c5a71e25-1a90-4293-92b1-f881f28016b5))
     (pin "5" (uuid 9625022d-0d0e-427a-acc7-8200bf887512))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "RN3") (unit 3)
         )
@@ -31373,7 +31373,7 @@
     )
     (pin "X" (uuid 236a24f6-7c5c-4bb4-8c29-0c9777fd7a78))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_GATE0") (unit 1)
         )
@@ -31398,7 +31398,7 @@
     )
     (pin "X" (uuid 3d234309-a819-4401-a57a-aec179f7a8d1))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_A4") (unit 1)
         )
@@ -31424,7 +31424,7 @@
     (pin "1" (uuid 564efb44-1bb4-45c9-9a0d-0b64d3377e0c))
     (pin "2" (uuid d47a286a-dcd1-4ae3-8119-fbc8fe7fcd8d))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "C11") (unit 1)
         )
@@ -31454,7 +31454,7 @@
     (pin "5" (uuid 16144799-9aa2-4d91-9a63-c9774be6f416))
     (pin "6" (uuid 5e7a8507-d56b-48ab-946b-aed46e092bb5))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "ICSP1") (unit 1)
         )
@@ -31465,7 +31465,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 210.82 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 261c35ed-5ce0-4fcc-ad2b-9117b6f47a69)
-    (property "Reference" "#GND17" (at 210.82 104.14 0)
+    (property "Reference" "#GND017" (at 210.82 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 208.28 106.68 0)
@@ -31479,9 +31479,9 @@
     )
     (pin "1" (uuid b801f2e4-c094-402d-b7d2-6fdbf17487f3))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND17") (unit 1)
+          (reference "#GND017") (unit 1)
         )
       )
     )
@@ -31490,7 +31490,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 287.02 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2d36446c-4e92-4346-81a0-4a186e5713a9)
-    (property "Reference" "#GND11" (at 287.02 99.06 0)
+    (property "Reference" "#GND011" (at 287.02 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 284.48 101.6 0)
@@ -31504,9 +31504,9 @@
     )
     (pin "1" (uuid 51338967-4c28-4b50-aea9-5c1ce1afc8f9))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND11") (unit 1)
+          (reference "#GND011") (unit 1)
         )
       )
     )
@@ -31531,7 +31531,7 @@
     (pin "2" (uuid d2fd0b19-9b0f-493f-afa7-ac131e025b45))
     (pin "3" (uuid 7b9370f4-4a82-4c61-b784-d0cf321eaee1))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "Y2") (unit 1)
         )
@@ -31556,7 +31556,7 @@
     )
     (pin "X" (uuid c5acc37e-78ce-4233-8d3a-79d65e1f4e00))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_A1") (unit 1)
         )
@@ -31581,7 +31581,7 @@
     )
     (pin "X" (uuid 32fed0d8-eb05-4192-880b-10a9f2c55af8))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_5V1") (unit 1)
         )
@@ -31606,7 +31606,7 @@
     )
     (pin "X" (uuid 00dc0099-06a1-4170-a0c0-0006b1ffedc9))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_LCMD0") (unit 1)
         )
@@ -31630,7 +31630,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "FD2") (unit 1)
         )
@@ -31654,7 +31654,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "FRAME1") (unit 1)
         )
@@ -31679,7 +31679,7 @@
     )
     (pin "X" (uuid 68cbc037-2277-4e6c-a179-9260d12a9932))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_7") (unit 1)
         )
@@ -31704,7 +31704,7 @@
     )
     (pin "X" (uuid b28ebc33-830d-4e42-accb-24647ac84233))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_8") (unit 1)
         )
@@ -31736,7 +31736,7 @@
     (pin "4" (uuid f56fe240-9ef2-4393-ace1-f97e9ba18148))
     (pin "5" (uuid e3c1c79c-9bea-431e-858e-287253b7539d))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "RN4") (unit 3)
         )
@@ -31762,7 +31762,7 @@
     (pin "+" (uuid c7ecea28-7b0f-4c88-9d59-748303b62e57))
     (pin "-" (uuid 6fd1ca3b-92cf-4adb-8ac9-39cd15cad9ed))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "PC2") (unit 1)
         )
@@ -31787,7 +31787,7 @@
     )
     (pin "X" (uuid 1c3f4672-ae2e-41c3-8d51-79e64615637d))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_4") (unit 1)
         )
@@ -31819,7 +31819,7 @@
     (pin "4" (uuid 8955a9d7-3ab7-491d-9d1e-cfe8205d586e))
     (pin "5" (uuid 16231e35-be9c-4563-acb7-e3482881e9ff))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "RN2") (unit 4)
         )
@@ -31871,7 +31871,7 @@
     (pin "8" (uuid dcec3909-bac6-4c6d-989c-f32e4fa73b21))
     (pin "9" (uuid 1537304b-b903-4876-87a8-26c6de4ec527))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "ZU4") (unit 1)
         )
@@ -31905,7 +31905,7 @@
     (pin "8" (uuid 556374ac-6134-4309-83b8-f2bd010aa6bf))
     (pin "9" (uuid ca5a2960-85a0-4291-8d9f-de0faed86a89))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "IOH0") (unit 1)
         )
@@ -31916,7 +31916,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 114.3 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 42806e82-2b81-4f96-82c2-de79a610edac)
-    (property "Reference" "#GND20" (at 114.3 91.44 0)
+    (property "Reference" "#GND020" (at 114.3 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 93.98 0)
@@ -31930,9 +31930,9 @@
     )
     (pin "1" (uuid cef26f9b-aeec-493f-93a8-c996d368b46d))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND20") (unit 1)
+          (reference "#GND020") (unit 1)
         )
       )
     )
@@ -31955,7 +31955,7 @@
     )
     (pin "X" (uuid 05b69d6d-c6ac-4933-9173-be409c9b062d))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_RESET2") (unit 1)
         )
@@ -31980,7 +31980,7 @@
     )
     (pin "X" (uuid 532d7142-4ab3-4a8f-9518-458eaeaf5c51))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_MISO2") (unit 1)
         )
@@ -32007,7 +32007,7 @@
     (pin "2" (uuid 41458e4a-9ffa-4d08-888d-175cafb2de77))
     (pin "3" (uuid ca98cc83-45c3-4b31-a531-fcd3b223fb84))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "X1") (unit 1)
         )
@@ -32032,7 +32032,7 @@
     )
     (pin "X" (uuid 7cc601f0-3597-4c30-bdb7-edfde3be5513))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_RXL0") (unit 1)
         )
@@ -32064,7 +32064,7 @@
     (pin "4" (uuid f825ff11-3a5e-48ba-8028-ad458576269f))
     (pin "5" (uuid 5b72118a-4306-49b0-8e3d-27929b87a084))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "RN2") (unit 1)
         )
@@ -32075,7 +32075,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:+5V") (at 83.82 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 487f9270-1e3e-42c5-bc26-8c609059e953)
-    (property "Reference" "#P+9" (at 83.82 66.04 0)
+    (property "Reference" "#P+09" (at 83.82 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 85.725 63.5 90)
@@ -32089,9 +32089,9 @@
     )
     (pin "1" (uuid 2c59da6d-7f19-4c2f-9f5d-e9b2ddaee387))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#P+9") (unit 1)
+          (reference "#P+09") (unit 1)
         )
       )
     )
@@ -32115,7 +32115,7 @@
     (pin "1" (uuid bf3a9432-06f1-4f6c-a97e-994111e2f821))
     (pin "2" (uuid b620dc3d-52ad-44cf-a659-9bfa6cdf8dfa))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "C7") (unit 1)
         )
@@ -32141,7 +32141,7 @@
     (pin "1" (uuid d2faed3c-a5d1-4c8e-a53c-7d395b18c96c))
     (pin "2" (uuid 36ea44bc-d7ba-40e7-943d-0d2b529ac5f0))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "C5") (unit 1)
         )
@@ -32152,7 +32152,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 218.44 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e66d0c7-824a-4320-bd2c-fea959acae73)
-    (property "Reference" "#GND21" (at 218.44 124.46 0)
+    (property "Reference" "#GND021" (at 218.44 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 215.9 127 0)
@@ -32166,9 +32166,9 @@
     )
     (pin "1" (uuid 22b2c354-84d2-4993-9f24-27884d6aa535))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND21") (unit 1)
+          (reference "#GND021") (unit 1)
         )
       )
     )
@@ -32192,7 +32192,7 @@
     (pin "1" (uuid 5329c8dc-a02c-4589-a2cd-45b1f4f98920))
     (pin "2" (uuid 618545ef-5702-4db8-9946-315887193d19))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "RESET-EN0") (unit 1)
         )
@@ -32217,7 +32217,7 @@
     )
     (pin "X" (uuid 29f06ec3-acf2-4fcf-bce3-525e754e5484))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_RESET0") (unit 1)
         )
@@ -32243,7 +32243,7 @@
     (pin "1" (uuid 0b365fa2-c321-4ea0-bb4a-84f65b05a8ec))
     (pin "2" (uuid 4370aeb9-a111-4950-8e95-90707e7d1e9e))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "Z1") (unit 1)
         )
@@ -32269,7 +32269,7 @@
     (pin "A" (uuid 46bc13f3-3e96-4c5c-af35-1af69a782f3a))
     (pin "C" (uuid 5c4c747d-1a9f-4696-8e5d-92f8191379c7))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "ON0") (unit 1)
         )
@@ -32299,7 +32299,7 @@
     (pin "5" (uuid e9982ee6-6ddc-4ff3-989b-46893ab2f4f6))
     (pin "6" (uuid 7fbe52d7-279f-4b0f-b498-645c516398b3))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "AD0") (unit 1)
         )
@@ -32310,7 +32310,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 83.82 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 567f4680-376a-46b8-a114-aee9cd87628c)
-    (property "Reference" "#GND18" (at 83.82 91.44 0)
+    (property "Reference" "#GND018" (at 83.82 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 93.98 0)
@@ -32324,9 +32324,9 @@
     )
     (pin "1" (uuid 2540a99a-3376-4c99-b460-e9c29b5725c1))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND18") (unit 1)
+          (reference "#GND018") (unit 1)
         )
       )
     )
@@ -32351,7 +32351,7 @@
     (pin "2" (uuid d1407622-2e90-4c71-8f81-4c60f0e800e8))
     (pin "3" (uuid c6a6abd3-aec1-4ce2-897c-8b9ae4b0b4b6))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "T1") (unit 1)
         )
@@ -32376,7 +32376,7 @@
     )
     (pin "X" (uuid efd48bcb-d89e-4769-9d5d-8a79ffa66374))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_MOSI2") (unit 1)
         )
@@ -32401,7 +32401,7 @@
     )
     (pin "X" (uuid fbe659cf-bbd8-49ec-98cc-2d8383396659))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_USBVCC0") (unit 1)
         )
@@ -32429,7 +32429,7 @@
     (pin "3" (uuid 5fa3a7f2-b47b-49ba-b79c-0527e0b10c22))
     (pin "4" (uuid 0b2e8b01-ff1a-45a6-a103-c40b60cd2969))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "U1") (unit 1)
         )
@@ -32454,7 +32454,7 @@
     )
     (pin "X" (uuid 2de5b24c-6cc6-4379-9ef7-6516e1545bcd))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_USH0") (unit 1)
         )
@@ -32479,7 +32479,7 @@
     )
     (pin "X" (uuid ce203a3f-3edf-4ee8-a497-0078964d0cee))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_LL0") (unit 1)
         )
@@ -32511,7 +32511,7 @@
     (pin "4" (uuid 819004e4-5902-4f82-96fb-f53a7da4fec2))
     (pin "5" (uuid 74013058-5520-4389-9b31-aed1c78dfbe8))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "RN3") (unit 4)
         )
@@ -32522,7 +32522,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 195.58 205.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 616059d9-bd78-4a5f-8394-7e0b64573c8d)
-    (property "Reference" "#GND15" (at 195.58 205.74 0)
+    (property "Reference" "#GND015" (at 195.58 205.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 208.28 0)
@@ -32536,9 +32536,9 @@
     )
     (pin "1" (uuid f350513d-47ef-4686-82ef-9d6cfbcd2fe9))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND15") (unit 1)
+          (reference "#GND015") (unit 1)
         )
       )
     )
@@ -32568,7 +32568,7 @@
     (pin "4" (uuid 3bca666e-47f6-4e85-b847-855837e12f2d))
     (pin "5" (uuid e4de4989-9cdd-4714-a94e-6bb393d04bb8))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "RN3") (unit 1)
         )
@@ -32593,7 +32593,7 @@
     )
     (pin "X" (uuid dd03474f-2a5c-4899-8b37-ff37316f7f83))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_12") (unit 1)
         )
@@ -32625,7 +32625,7 @@
     (pin "4" (uuid 81600a0c-6f01-4360-9fd4-3d91eabe5395))
     (pin "5" (uuid 1f913e6f-ed4f-40ab-984c-79eba3aafe09))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "RN4") (unit 1)
         )
@@ -32651,7 +32651,7 @@
     (pin "1" (uuid 3105d88f-cd02-42ce-8f8b-1e2f13cfdf35))
     (pin "2" (uuid bf1cf8d4-ea85-49db-ab63-9df451786eba))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "R1") (unit 1)
         )
@@ -32662,7 +32662,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:+5V") (at 314.96 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 705be721-56fd-409a-9226-fe68901ca4eb)
-    (property "Reference" "#P+8" (at 314.96 76.2 0)
+    (property "Reference" "#P+08" (at 314.96 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 316.865 73.66 90)
@@ -32676,9 +32676,9 @@
     )
     (pin "1" (uuid efdcc0f2-19aa-43ca-83ac-631c57765628))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#P+8") (unit 1)
+          (reference "#P+08") (unit 1)
         )
       )
     )
@@ -32702,7 +32702,7 @@
     (pin "1" (uuid 9a778ce6-8a6e-4c63-bb0f-d753b8cd8de1))
     (pin "2" (uuid 20a70c27-c378-409e-9579-19bbd8f76070))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "L1") (unit 1)
         )
@@ -32713,7 +32713,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 175.26 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 73b76b50-9e65-4bde-a544-3cd2394e2972)
-    (property "Reference" "#GND4" (at 175.26 124.46 0)
+    (property "Reference" "#GND04" (at 175.26 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 172.72 127 0)
@@ -32727,9 +32727,9 @@
     )
     (pin "1" (uuid 7a74890e-b510-4f8a-a355-1e2b9aefe332))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND4") (unit 1)
+          (reference "#GND04") (unit 1)
         )
       )
     )
@@ -32757,7 +32757,7 @@
     (pin "P$1" (uuid 12eb3813-3438-47a1-ba3d-e0cfc38c407c))
     (pin "P$2" (uuid c99d3183-602f-402b-ad21-72b74bb78ccd))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "X2") (unit 1)
         )
@@ -32789,7 +32789,7 @@
     (pin "7" (uuid 8c0d700b-f6d8-436c-adda-33061a99f248))
     (pin "8" (uuid 33b54650-2324-40b1-a85c-ebfc4768a030))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "POWER0") (unit 1)
         )
@@ -32800,7 +32800,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:+5V") (at 238.76 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76ff11eb-2ac2-4ced-a02b-a41746631245)
-    (property "Reference" "#P+4" (at 238.76 114.3 0)
+    (property "Reference" "#P+04" (at 238.76 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 240.665 111.76 90)
@@ -32814,9 +32814,9 @@
     )
     (pin "1" (uuid 5844bb82-6060-48a9-91fd-ea513344c326))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#P+4") (unit 1)
+          (reference "#P+04") (unit 1)
         )
       )
     )
@@ -32840,7 +32840,7 @@
     (pin "A" (uuid 29ad9b28-3324-41f6-b5cb-a4de59cad6a3))
     (pin "C" (uuid a3b0ae4c-7704-42dd-9fd0-492945363634))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "RX0") (unit 1)
         )
@@ -32851,7 +32851,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:+5V") (at 109.22 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7802575d-58fb-4b2e-b39e-0f59ffb25867)
-    (property "Reference" "#P+6" (at 109.22 195.58 0)
+    (property "Reference" "#P+06" (at 109.22 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 111.125 193.04 90)
@@ -32865,9 +32865,9 @@
     )
     (pin "1" (uuid fec54af9-1083-49ad-9f62-2ec86c7cee1e))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#P+6") (unit 1)
+          (reference "#P+06") (unit 1)
         )
       )
     )
@@ -32895,7 +32895,7 @@
     (pin "5" (uuid fd4dc108-b610-4df3-9326-3dc5fedcadb9))
     (pin "6" (uuid c44f4016-d600-413a-9bd2-4e9d9b72962e))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "ICSP0") (unit 1)
         )
@@ -32927,7 +32927,7 @@
     (pin "4" (uuid 5256a5e6-553d-4242-a063-2a2d92102da5))
     (pin "8" (uuid 2be53190-32ef-4ee1-8aaf-628588158b51))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "U5") (unit 2)
         )
@@ -32952,7 +32952,7 @@
     )
     (pin "X" (uuid 86a0c583-afab-48e2-b810-43a0cf4db0e3))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_XT3") (unit 1)
         )
@@ -32977,7 +32977,7 @@
     )
     (pin "X" (uuid e450462c-474e-4081-a0c8-f43225dcaba5))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_9") (unit 1)
         )
@@ -33002,7 +33002,7 @@
     )
     (pin "X" (uuid fa8d92e8-61fe-4e49-bd4a-bc00c344e0d2))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "GND_TP1") (unit 1)
         )
@@ -33027,7 +33027,7 @@
     )
     (pin "X" (uuid 450c12fa-6d74-4136-a03d-051bbb6c51dd))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_TXL0") (unit 1)
         )
@@ -33052,7 +33052,7 @@
     )
     (pin "X" (uuid 2ae748f7-4c86-495b-a268-47e4658ef39e))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_10") (unit 1)
         )
@@ -33063,7 +33063,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 99.06 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 866ae56d-1c14-45ad-bd5f-eeefd80d4f13)
-    (property "Reference" "#GND22" (at 99.06 162.56 0)
+    (property "Reference" "#GND022" (at 99.06 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 165.1 0)
@@ -33077,9 +33077,9 @@
     )
     (pin "1" (uuid baa99992-10f5-4cdb-bc6c-a4466c8f81ea))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND22") (unit 1)
+          (reference "#GND022") (unit 1)
         )
       )
     )
@@ -33109,7 +33109,7 @@
     (pin "4" (uuid 63d808b7-e471-4b40-81e0-cfd0193866db))
     (pin "5" (uuid d8834d0b-5372-4abd-992f-78d34bf3a90b))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "RN1") (unit 1)
         )
@@ -33141,7 +33141,7 @@
     (pin "4" (uuid bfd728fe-ef40-46b6-9d78-b50266ce804d))
     (pin "5" (uuid 05c26ad1-31a7-46ab-bbab-3ad5026618d1))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "RN1") (unit 3)
         )
@@ -33173,7 +33173,7 @@
     (pin "4" (uuid 5d610995-13f8-4f50-a2e0-1704a7b7a914))
     (pin "5" (uuid f4cf820c-34ae-4b79-a28b-fb91d50e6e66))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "RN1") (unit 4)
         )
@@ -33202,7 +33202,7 @@
     (pin "4" (uuid 56a81e65-80bd-4ebf-abcc-00884b3f496d))
     (pin "5" (uuid e9b386fb-ea4c-406c-bee3-82d4896e23c9))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "U2") (unit 1)
         )
@@ -33226,7 +33226,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "FD3") (unit 1)
         )
@@ -33255,7 +33255,7 @@
     (pin "4" (uuid 7ea974b1-9390-4367-b7c7-4fad97e16b5d))
     (pin "5" (uuid ada70255-485a-4b0b-8539-9f26be23f116))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "RESET0") (unit 1)
         )
@@ -33281,7 +33281,7 @@
     (pin "1" (uuid d0bb3d82-e49a-4c67-8bd2-6035798cc020))
     (pin "2" (uuid 91246cac-8d1c-4b24-9146-437c7c877185))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "Z2") (unit 1)
         )
@@ -33307,7 +33307,7 @@
     (pin "1" (uuid 9b16e73e-f58e-4c21-b379-3747f9df7a7e))
     (pin "2" (uuid 3dfd18e0-f7c3-4af4-9d0d-83d81fe3c9b5))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "C10") (unit 1)
         )
@@ -33318,7 +33318,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 114.3 231.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e0bbc0b-e999-4638-940e-3867b06dc8ad)
-    (property "Reference" "#GND23" (at 114.3 231.14 0)
+    (property "Reference" "#GND023" (at 114.3 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 233.68 0)
@@ -33332,9 +33332,9 @@
     )
     (pin "1" (uuid ed119b78-91a2-457f-ad53-33ee8267b4ba))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND23") (unit 1)
+          (reference "#GND023") (unit 1)
         )
       )
     )
@@ -33357,7 +33357,7 @@
     )
     (pin "X" (uuid cf962ea9-88d6-4ec9-a4b7-7becb21f00c9))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_VIN0") (unit 1)
         )
@@ -33382,7 +33382,7 @@
     )
     (pin "X" (uuid ef60024c-8f54-49d7-a9c7-b7f4b064008c))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_AREF0") (unit 1)
         )
@@ -33407,7 +33407,7 @@
     )
     (pin "X" (uuid ffbe2279-3508-4045-bc34-354051c94e5a))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_PB7") (unit 1)
         )
@@ -33432,7 +33432,7 @@
     )
     (pin "X" (uuid 3344f8a9-6f27-4151-88d6-76cd6d8fb418))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_A2") (unit 1)
         )
@@ -33443,7 +33443,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:+5V") (at 215.9 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 91971c36-485c-44a9-a9af-c2e4cd6a6663)
-    (property "Reference" "#P+3" (at 215.9 196.85 0)
+    (property "Reference" "#P+03" (at 215.9 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 217.805 194.31 90)
@@ -33457,9 +33457,9 @@
     )
     (pin "1" (uuid 4b4f40eb-f9d9-4149-90d7-cee0e5ac8afd))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#P+3") (unit 1)
+          (reference "#P+03") (unit 1)
         )
       )
     )
@@ -33482,7 +33482,7 @@
     )
     (pin "X" (uuid e90b0d91-dcec-4e9b-a93e-5e11e4fae7d3))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_XUSB0") (unit 1)
         )
@@ -33508,7 +33508,7 @@
     (pin "1" (uuid d93997e2-6e88-4b22-a578-a13ab4d982b2))
     (pin "2" (uuid 2bc9365d-f508-47d8-b80e-1bf49cbf0ab1))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "R2") (unit 1)
         )
@@ -33534,7 +33534,7 @@
     (pin "A" (uuid 77d663db-ead9-4065-9689-5d55d78c3cb2))
     (pin "C" (uuid 62774e44-1057-46bd-b21d-dcec5e3ff352))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "L0") (unit 1)
         )
@@ -33560,7 +33560,7 @@
     (pin "1" (uuid 9b89a2d1-8c6d-458c-a431-fc261e5c997e))
     (pin "2" (uuid 8f20404a-71f2-4423-80f3-985cc772905e))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "C4") (unit 1)
         )
@@ -33585,7 +33585,7 @@
     )
     (pin "X" (uuid 316d6111-482a-4d1c-9bb4-e323a849c6a3))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_DTR0") (unit 1)
         )
@@ -33610,7 +33610,7 @@
     )
     (pin "X" (uuid 47948ff8-9ff1-4d47-9898-4fdb387bc5d7))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_2") (unit 1)
         )
@@ -33635,7 +33635,7 @@
     )
     (pin "X" (uuid 447d10f1-31f4-42de-8d74-edf28cae052d))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_VUCAP0") (unit 1)
         )
@@ -33660,7 +33660,7 @@
     )
     (pin "X" (uuid 1cea10db-45eb-46e4-b840-e4b6a36f167d))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_A3") (unit 1)
         )
@@ -33685,7 +33685,7 @@
     )
     (pin "X" (uuid 3a33ceb5-1b94-4c21-8388-91e17bfa095c))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_6") (unit 1)
         )
@@ -33710,7 +33710,7 @@
     )
     (pin "X" (uuid ac1e2ca1-5748-4e6c-8915-0d5deb043a9a))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_0") (unit 1)
         )
@@ -33742,7 +33742,7 @@
     (pin "4" (uuid dfdb0af1-e53f-4c78-ab71-71fdd81e6da0))
     (pin "8" (uuid 504a7cd1-d586-45fe-bcd2-a804cb60a49c))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "U5") (unit 3)
         )
@@ -33753,7 +33753,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 299.72 144.78 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a205b499-d91e-4dee-ab1d-708bfcf9097e)
-    (property "Reference" "#GND13" (at 299.72 144.78 0)
+    (property "Reference" "#GND013" (at 299.72 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 302.26 142.24 0)
@@ -33767,9 +33767,9 @@
     )
     (pin "1" (uuid 7cea2b81-bc38-42e3-b0e3-9f5887c54e65))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND13") (unit 1)
+          (reference "#GND013") (unit 1)
         )
       )
     )
@@ -33793,7 +33793,7 @@
     (pin "1" (uuid ce05287c-c82f-4b89-bbda-fe5a1ff8f930))
     (pin "2" (uuid 825f9b96-25b8-44ef-84d0-b452c1aef6c7))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "C1") (unit 1)
         )
@@ -33818,7 +33818,7 @@
     )
     (pin "X" (uuid aa036deb-0d1f-46ff-b6c8-42306d1ccb3f))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_XT2") (unit 1)
         )
@@ -33850,7 +33850,7 @@
     (pin "4" (uuid 57e0a009-ebed-49f1-b282-276fc3412ece))
     (pin "5" (uuid bd1da506-8845-4db4-b1e1-6b7f110e3b86))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "RN4") (unit 2)
         )
@@ -33875,7 +33875,7 @@
     )
     (pin "X" (uuid a51621e4-8dba-4471-ab59-05765c77845d))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_RX0") (unit 1)
         )
@@ -33907,7 +33907,7 @@
     (pin "4" (uuid 94e88528-9473-41d0-b4b9-f9dadc3f65bb))
     (pin "5" (uuid d6c775da-d80d-40a7-8462-fff97f758ff2))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "RN4") (unit 4)
         )
@@ -33918,7 +33918,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 121.92 254 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a67589f9-580e-40fd-9d34-23e3a3b86173)
-    (property "Reference" "#GND6" (at 121.92 254 0)
+    (property "Reference" "#GND06" (at 121.92 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 256.54 0)
@@ -33932,9 +33932,9 @@
     )
     (pin "1" (uuid 85c87ea2-cb42-40cd-924a-f3c688d0efaa))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND6") (unit 1)
+          (reference "#GND06") (unit 1)
         )
       )
     )
@@ -33964,7 +33964,7 @@
     (pin "4" (uuid 236b8f45-08cf-48e0-9a16-9c85681dbbae))
     (pin "5" (uuid d790a57b-1a6b-486b-944d-06fd73de2739))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "RN2") (unit 3)
         )
@@ -33989,7 +33989,7 @@
     )
     (pin "X" (uuid 0472621b-ef70-49a2-bc34-37b7fc8729ba))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_5") (unit 1)
         )
@@ -34000,7 +34000,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:+5V") (at 226.06 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad7147df-0788-486c-baa0-4771247e6af0)
-    (property "Reference" "#P+7" (at 226.06 215.9 0)
+    (property "Reference" "#P+07" (at 226.06 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 227.33 215.265 90)
@@ -34014,9 +34014,9 @@
     )
     (pin "1" (uuid 4585de00-2adf-4d70-89c1-f54e7c04437c))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#P+7") (unit 1)
+          (reference "#P+07") (unit 1)
         )
       )
     )
@@ -34025,7 +34025,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 307.34 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid adf77e4f-f8e6-426b-a9a1-8947bff53d21)
-    (property "Reference" "#GND10" (at 307.34 99.06 0)
+    (property "Reference" "#GND010" (at 307.34 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 304.8 101.6 0)
@@ -34039,9 +34039,9 @@
     )
     (pin "1" (uuid 1778c884-b03e-405e-904f-2f16e402e525))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND10") (unit 1)
+          (reference "#GND010") (unit 1)
         )
       )
     )
@@ -34064,7 +34064,7 @@
     )
     (pin "X" (uuid 91e6ca8a-15d4-42d9-b370-3724190d2ccc))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_PB5") (unit 1)
         )
@@ -34075,7 +34075,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 208.28 182.88 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b186b94e-6e2a-40d4-a37c-39e0b2167fbe)
-    (property "Reference" "#GND3" (at 208.28 182.88 0)
+    (property "Reference" "#GND03" (at 208.28 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 180.34 0)
@@ -34089,9 +34089,9 @@
     )
     (pin "1" (uuid b596a2cb-8563-4e37-b5b5-f415875bb8dc))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND3") (unit 1)
+          (reference "#GND03") (unit 1)
         )
       )
     )
@@ -34114,7 +34114,7 @@
     )
     (pin "X" (uuid 0958f461-d32d-4d14-ad40-3f158b6cf2aa))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_XT1") (unit 1)
         )
@@ -34125,7 +34125,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 91.44 182.88 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b3d29e21-8055-418b-8c65-14b42af90f54)
-    (property "Reference" "#GND8" (at 91.44 182.88 0)
+    (property "Reference" "#GND08" (at 91.44 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.9 180.34 0)
@@ -34139,9 +34139,9 @@
     )
     (pin "1" (uuid 9d9e11c4-8fcf-45ff-91a0-cd0730612e12))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND8") (unit 1)
+          (reference "#GND08") (unit 1)
         )
       )
     )
@@ -34167,7 +34167,7 @@
     (pin "3" (uuid 396e9d7a-5069-4d7a-b8e9-bbf8b9968838))
     (pin "4" (uuid bdca70e9-4269-4a43-96e1-d213a30cc5de))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "JP2") (unit 1)
         )
@@ -34199,7 +34199,7 @@
     (pin "7" (uuid ce6f7def-6209-4f25-9b1b-3f2b8fcee99d))
     (pin "8" (uuid dd8a9124-1ba4-409f-8301-afd68bdf4fe3))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "IOL0") (unit 1)
         )
@@ -34210,7 +34210,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 228.6 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bff8e5f9-9146-47d1-b640-1db150dc1dcf)
-    (property "Reference" "#GND19" (at 228.6 101.6 0)
+    (property "Reference" "#GND019" (at 228.6 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 226.06 104.14 0)
@@ -34224,9 +34224,9 @@
     )
     (pin "1" (uuid 6cbf88a0-0923-43ab-9adb-4b0c3f4ebd94))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND19") (unit 1)
+          (reference "#GND019") (unit 1)
         )
       )
     )
@@ -34248,7 +34248,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "FD1") (unit 1)
         )
@@ -34274,7 +34274,7 @@
     (pin "1" (uuid d98b2e14-9b40-4522-ac14-c140d9cf8503))
     (pin "2" (uuid db368db5-fddc-4b2a-b8d5-737b3571314b))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "C2") (unit 1)
         )
@@ -34285,7 +34285,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 322.58 116.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c67a52de-81e9-4715-889e-2baf4156e559)
-    (property "Reference" "#GND14" (at 322.58 116.84 0)
+    (property "Reference" "#GND014" (at 322.58 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 325.12 119.38 0)
@@ -34299,9 +34299,9 @@
     )
     (pin "1" (uuid d5b0c51b-d32f-4e8b-83ad-7eb8bb98d7e3))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND14") (unit 1)
+          (reference "#GND014") (unit 1)
         )
       )
     )
@@ -34325,7 +34325,7 @@
     (pin "A" (uuid 01c8fd48-5d93-434e-b6da-906418486d5c))
     (pin "C" (uuid 9b9f0f21-4d97-4845-8526-5d815c4cd6a3))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "D3") (unit 1)
         )
@@ -34336,7 +34336,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:+5V") (at 160.02 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cad5628b-66ad-4cf0-9af9-ffce1695d6ef)
-    (property "Reference" "#P+10" (at 160.02 104.14 0)
+    (property "Reference" "#P+010" (at 160.02 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 161.925 101.6 90)
@@ -34350,9 +34350,9 @@
     )
     (pin "1" (uuid 01ba13a6-64e3-44f9-af35-4d0d8981ad5e))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#P+10") (unit 1)
+          (reference "#P+010") (unit 1)
         )
       )
     )
@@ -34375,7 +34375,7 @@
     )
     (pin "X" (uuid e7194664-52ef-45e0-bdaa-f517ee9de288))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_5V0") (unit 1)
         )
@@ -34400,7 +34400,7 @@
     )
     (pin "X" (uuid 566cd459-2043-4400-ba00-625f382bfc07))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_1") (unit 1)
         )
@@ -34426,7 +34426,7 @@
     (pin "1" (uuid 8ab627cb-bff6-49c2-8b97-c1d57667c85f))
     (pin "2" (uuid 686c17d5-59d6-4f07-853e-0e4fd7fecdd6))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "L2") (unit 1)
         )
@@ -34451,7 +34451,7 @@
     )
     (pin "X" (uuid 9f4ec3f7-5dd5-480d-9b2f-82c16a73f1b1))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_PB6") (unit 1)
         )
@@ -34462,7 +34462,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:+5V") (at 99.06 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cfecff34-7a64-45df-bb26-ca5c5c9ef434)
-    (property "Reference" "#P+11" (at 99.06 139.7 0)
+    (property "Reference" "#P+011" (at 99.06 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 100.965 137.16 90)
@@ -34476,9 +34476,9 @@
     )
     (pin "1" (uuid 324dbfa2-8a83-46d2-ac4a-5a29e3745cba))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#P+11") (unit 1)
+          (reference "#P+011") (unit 1)
         )
       )
     )
@@ -34501,7 +34501,7 @@
     )
     (pin "X" (uuid 25d30b62-2b20-4536-b2cb-d0aa3a25198d))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_SDA0") (unit 1)
         )
@@ -34527,7 +34527,7 @@
     (pin "A" (uuid 63be3647-f066-434c-a00e-2683de15b8cb))
     (pin "C" (uuid 1783be1f-40a9-45a8-b52e-b6081e063628))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "D1") (unit 1)
         )
@@ -34553,7 +34553,7 @@
     (pin "1" (uuid 7d7bd6d3-babb-4699-bb8c-f5757932eec4))
     (pin "2" (uuid ef7847f6-4770-451e-8461-a5a1a86a1b9d))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "C6") (unit 1)
         )
@@ -34578,7 +34578,7 @@
     )
     (pin "X" (uuid a6e7034e-fde4-4bb5-b46e-61bfae581e7b))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_ONL0") (unit 1)
         )
@@ -34604,7 +34604,7 @@
     (pin "1" (uuid ae441633-0bb8-40d5-96f1-2657426e1f56))
     (pin "2" (uuid 495ad8ef-9260-4c13-9a2a-0d16be9d5fc4))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "GROUND0") (unit 1)
         )
@@ -34629,7 +34629,7 @@
     )
     (pin "X" (uuid dd0f1a03-ee9c-43e8-86dc-5ae1305c8bc6))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "ORIGIN0") (unit 1)
         )
@@ -34661,7 +34661,7 @@
     (pin "4" (uuid c52cc7c1-095e-4361-9ef7-4626d7059af7))
     (pin "5" (uuid 4aa41609-c27b-416b-b32c-a6a5f4a942f7))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "RN1") (unit 2)
         )
@@ -34686,7 +34686,7 @@
     )
     (pin "X" (uuid d2782351-adae-4b46-a13e-b3d0005c7882))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_TX0") (unit 1)
         )
@@ -34711,7 +34711,7 @@
     )
     (pin "X" (uuid 4aeb6de8-20ed-439d-9cc3-f91ee300c383))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_PWRIN0") (unit 1)
         )
@@ -34722,7 +34722,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 269.24 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df3785ac-ff2c-453d-8310-679f7a7bec3f)
-    (property "Reference" "#GND9" (at 269.24 99.06 0)
+    (property "Reference" "#GND09" (at 269.24 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.7 101.6 0)
@@ -34736,9 +34736,9 @@
     )
     (pin "1" (uuid 646727c5-da42-418c-b718-cd389d08e778))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND9") (unit 1)
+          (reference "#GND09") (unit 1)
         )
       )
     )
@@ -34768,7 +34768,7 @@
     (pin "4" (uuid ef830518-766d-43f8-a957-491e9dbc6403))
     (pin "5" (uuid f3ec1b02-405d-43ba-85cf-25c6809a1a5f))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "RN3") (unit 2)
         )
@@ -34793,7 +34793,7 @@
     )
     (pin "X" (uuid 73b535c4-8d99-4d21-8e17-4b5b1441d068))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_SCK2") (unit 1)
         )
@@ -34818,7 +34818,7 @@
     )
     (pin "X" (uuid ed5b6176-b73e-43bb-93fe-a736a50d1873))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_CMP0") (unit 1)
         )
@@ -34843,7 +34843,7 @@
     )
     (pin "X" (uuid 81d91569-f3e6-4f1b-821c-b6fced615d87))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_3V3") (unit 1)
         )
@@ -34875,7 +34875,7 @@
     (pin "4" (uuid 56cc4167-62e9-44ae-a81e-2e66d1ceca93))
     (pin "5" (uuid 7d1836f5-8a8f-4539-ae33-43334ea7c551))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "RN2") (unit 2)
         )
@@ -34900,7 +34900,7 @@
     )
     (pin "X" (uuid f4f0a08f-b2c4-41dd-acf5-6cf5ac5ce182))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_UGND0") (unit 1)
         )
@@ -34926,7 +34926,7 @@
     (pin "+" (uuid baaa397a-778a-4396-8682-acb8108bf691))
     (pin "-" (uuid 60cf8bd8-09ca-4d76-9b29-47b34c6b0044))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "PC1") (unit 1)
         )
@@ -34951,7 +34951,7 @@
     )
     (pin "X" (uuid 235a37c2-bb7b-4e1f-a353-bfd9fe1e6dda))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_XT4") (unit 1)
         )
@@ -34977,7 +34977,7 @@
     (pin "1" (uuid 6791caf6-7f0d-40f6-8880-95f5ef0f465c))
     (pin "2" (uuid 9e4f2662-e810-4a6b-b151-9842f80b6341))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "C8") (unit 1)
         )
@@ -34988,7 +34988,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 241.3 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eeb455ec-309b-426b-ab8b-24a25cfae300)
-    (property "Reference" "#GND2" (at 241.3 218.44 0)
+    (property "Reference" "#GND02" (at 241.3 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.76 220.98 0)
@@ -35002,9 +35002,9 @@
     )
     (pin "1" (uuid 7f1ec51e-8f46-4648-9fa1-ee56a702b3d1))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND2") (unit 1)
+          (reference "#GND02") (unit 1)
         )
       )
     )
@@ -35034,7 +35034,7 @@
     (pin "4" (uuid 1519dd2d-3466-4d61-818f-5fbf0b05d2ff))
     (pin "8" (uuid 2bcd83d0-684a-4bf0-987e-4e3b362c02fd))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "U5") (unit 1)
         )
@@ -35059,7 +35059,7 @@
     )
     (pin "X" (uuid ba02136c-9baf-4342-951e-c85dfab12a38))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "GND_TP0") (unit 1)
         )
@@ -35084,7 +35084,7 @@
     )
     (pin "X" (uuid 8240c748-e34f-4043-b42e-1f4c70437683))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_11") (unit 1)
         )
@@ -35095,7 +35095,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:+5V") (at 233.68 200.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f32138c3-52ae-4922-8476-8bc107d71d2e)
-    (property "Reference" "#P+12" (at 233.68 200.66 0)
+    (property "Reference" "#P+012" (at 233.68 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 237.49 205.105 90)
@@ -35109,9 +35109,9 @@
     )
     (pin "1" (uuid c28e264f-d8ea-4544-a8ac-98902135f878))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#P+12") (unit 1)
+          (reference "#P+012") (unit 1)
         )
       )
     )
@@ -35166,7 +35166,7 @@
     (pin "8" (uuid c53463ca-2624-45aa-a825-49545a58309b))
     (pin "9" (uuid ee72c6cd-4fee-48b0-96c5-c730bf8d9119))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "U3") (unit 1)
         )
@@ -35192,7 +35192,7 @@
     (pin "1" (uuid 6c8fa834-2c39-4d6b-9760-290d950f8d3a))
     (pin "2" (uuid f613f3e8-1d22-4530-ac17-d0b3fd854cbb))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "C3") (unit 1)
         )
@@ -35203,7 +35203,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:GND") (at 284.48 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9c5a22b-e8f5-412b-aa5e-f7606e50bebe)
-    (property "Reference" "#GND1" (at 284.48 162.56 0)
+    (property "Reference" "#GND01" (at 284.48 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 281.94 165.1 0)
@@ -35217,9 +35217,9 @@
     )
     (pin "1" (uuid 08061d37-22ff-4472-90fb-593d167a8905))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#GND1") (unit 1)
+          (reference "#GND01") (unit 1)
         )
       )
     )
@@ -35242,7 +35242,7 @@
     )
     (pin "X" (uuid 72149def-af7c-4b12-9cea-5abfb7c40d57))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
           (reference "TP_A0") (unit 1)
         )
@@ -35253,7 +35253,7 @@
   (symbol (lib_id "UNO-TH_Rev3e-eagle-import:+5V") (at 297.18 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fe6cc952-6508-4e9f-96b6-c4efe68cd09a)
-    (property "Reference" "#P+5" (at 297.18 109.22 0)
+    (property "Reference" "#P+05" (at 297.18 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 299.085 106.68 90)
@@ -35267,9 +35267,9 @@
     )
     (pin "1" (uuid b952af8f-f577-48ab-8271-67087ffb0ebc))
     (instances
-      (project "UNO-TH_Rev3e"
+      (project "KiCad7xx_UnoTypeC"
         (path "/7358bfcc-1207-4cc1-a15c-a2881617d43d"
-          (reference "#P+5") (unit 1)
+          (reference "#P+05") (unit 1)
         )
       )
     )
