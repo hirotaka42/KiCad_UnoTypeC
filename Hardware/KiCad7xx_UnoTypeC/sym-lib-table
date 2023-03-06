@@ -3,4 +3,5 @@
   (lib (name "UNO-TH_Rev3e-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/UNO-TH_Rev3e-eagle-import.kicad_sym")(options "")(descr ""))
   (lib (name "HRO_TYPE-C-31-M-12")(type "Legacy")(uri "/Users/user/src/github.com/hirotaka42/KiCad_UnoTypeC/Hardware/3rdparty/HRO_TYPE-C-31-M-12/HRO_TYPE-C-31-M-12.lib")(options "")(descr ""))
   (lib (name "Murata_Resonators_CSTNE16M0V530000R0")(type "Legacy")(uri "/Users/user/src/github.com/hirotaka42/KiCad_UnoTypeC/Hardware/3rdparty/Murata_Resonators_CSTNE16M0V530000R0_SMD-3_SnapEDA/Murata_Resonators_CSTNE16M0V530000R0.lib")(options "")(descr ""))
+  (lib (name "UNO_TypeC_A0011")(type "KiCad")(uri "/Users/user/src/github.com/hirotaka42/KiCad_UnoTypeC/Hardware/3rdparty/UNO_TypeC_A0011/UNO_TypeC_A0011.kicad_sym")(options "")(descr ""))
 )
