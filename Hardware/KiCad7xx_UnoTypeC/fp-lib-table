@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "UNO-TH_Rev3e")(type "KiCad")(uri "$(KIPRJMOD)/KiCad7xx_UnoTypeC.pretty")(options "")(descr ""))
   (lib (name "Murata_Resonators_CSTNE16M0V530000R0_SMD-3_SnapEDA")(type "KiCad")(uri "/Users/user/src/github.com/hirotaka42/KiCad_UnoTypeC/Hardware/3rdparty/Murata_Resonators_CSTNE16M0V530000R0_SMD-3_SnapEDA")(options "")(descr ""))
+  (lib (name "footprint")(type "KiCad")(uri "${KIPRJMOD}/_Adobe/footprint")(options "")(descr ""))
+  (lib (name "KiCad_3rdParty_footprint")(type "KiCad")(uri "/Users/user/Documents/KiCad/KiCad_3rdParty_footprint")(options "")(descr ""))
+  (lib (name "foot2")(type "KiCad")(uri "/Users/user/Desktop/_Adobe/foot2")(options "")(descr ""))
 )
