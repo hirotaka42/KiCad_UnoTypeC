@@ -1,0 +1,13 @@
+(footprint "TP-SP" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at -1.524 -1.27) (layer "F.SilkS") hide
+      (effects (font (size 0.4572 0.4572) (thickness 0.1524)) (justify left))
+    (tstamp 7ca7f7c5-203b-46ab-a6e7-0fab327b4d60)
+  )
+  (fp_text value "TP_SP" (at 0 0) (layer "F.Fab") hide
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    (tstamp f0fc7c0e-eb80-4f6b-aa09-20a0a767be80)
+  )
+  (pad "X" smd roundrect (at 0 0) (size 0.8 0.8) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.5)
+    (solder_mask_margin 0.0508) (solder_paste_margin -0.0508) (zone_connect 2) (thermal_bridge_angle 45) (tstamp 7329a9dc-a2d6-46bd-a124-0421f84c7bfd))
+)
