@@ -5,6 +5,35 @@
   (paper "User" 425.45 298.45)
 
   (lib_symbols
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole" (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+      )
+    )
     (symbol "UNOSMD_V3-eagle-import:+3V3" (power) (in_bom yes) (on_board yes)
       (property "Reference" "#+3V3" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -363,489 +392,6 @@
         (pin passive line (at 5.08 0 180) (length 2.54)
           (name "2" (effects (font (size 0 0))))
           (number "5" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "UNOSMD_V3-eagle-import:A3-FRAME-STANDARD" (in_bom yes) (on_board yes)
-      (property "Reference" "FRAME" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "UNOSMD_V3:FRAME" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "A3-FRAME-STANDARD_1_0"
-        (polyline
-          (pts
-            (xy 0 52.07)
-            (xy 3.81 52.07)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 104.14)
-            (xy 3.81 104.14)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 156.21)
-            (xy 3.81 156.21)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 208.28)
-            (xy 3.81 208.28)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 3.81)
-            (xy 3.81 256.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 48.4188 0)
-            (xy 48.4188 3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 48.4188 256.54)
-            (xy 48.4188 260.35)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 96.8375 0)
-            (xy 96.8375 3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 96.8375 256.54)
-            (xy 96.8375 260.35)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 145.2563 0)
-            (xy 145.2563 3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 145.2563 256.54)
-            (xy 145.2563 260.35)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 193.675 0)
-            (xy 193.675 3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 193.675 256.54)
-            (xy 193.675 260.35)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 242.0938 0)
-            (xy 242.0938 3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 242.0938 256.54)
-            (xy 242.0938 260.35)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 288.29 3.81)
-            (xy 288.29 24.13)
-          )
-          (stroke (width 0.1016) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 288.29 3.81)
-            (xy 342.265 3.81)
-          )
-          (stroke (width 0.1016) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 288.29 24.13)
-            (xy 342.265 24.13)
-          )
-          (stroke (width 0.1016) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 290.5125 0)
-            (xy 290.5125 3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 290.5125 256.54)
-            (xy 290.5125 260.35)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 338.9313 0)
-            (xy 338.9313 3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 338.9313 256.54)
-            (xy 338.9313 260.35)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 342.265 3.81)
-            (xy 373.38 3.81)
-          )
-          (stroke (width 0.1016) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 342.265 8.89)
-            (xy 342.265 3.81)
-          )
-          (stroke (width 0.1016) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 342.265 8.89)
-            (xy 342.265 13.97)
-          )
-          (stroke (width 0.1016) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 342.265 13.97)
-            (xy 342.265 19.05)
-          )
-          (stroke (width 0.1016) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 342.265 13.97)
-            (xy 383.54 13.97)
-          )
-          (stroke (width 0.1016) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 342.265 19.05)
-            (xy 342.265 24.13)
-          )
-          (stroke (width 0.1016) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 342.265 19.05)
-            (xy 383.54 19.05)
-          )
-          (stroke (width 0.1016) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 342.265 24.13)
-            (xy 383.54 24.13)
-          )
-          (stroke (width 0.1016) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 373.38 3.81)
-            (xy 373.38 8.89)
-          )
-          (stroke (width 0.1016) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 373.38 3.81)
-            (xy 383.54 3.81)
-          )
-          (stroke (width 0.1016) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 373.38 8.89)
-            (xy 342.265 8.89)
-          )
-          (stroke (width 0.1016) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 373.38 8.89)
-            (xy 383.54 8.89)
-          )
-          (stroke (width 0.1016) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 383.54 3.81)
-            (xy 3.81 3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 383.54 3.81)
-            (xy 383.54 8.89)
-          )
-          (stroke (width 0.1016) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 383.54 3.81)
-            (xy 383.54 256.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 383.54 8.89)
-            (xy 383.54 13.97)
-          )
-          (stroke (width 0.1016) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 383.54 13.97)
-            (xy 383.54 19.05)
-          )
-          (stroke (width 0.1016) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 383.54 19.05)
-            (xy 383.54 24.13)
-          )
-          (stroke (width 0.1016) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 383.54 52.07)
-            (xy 387.35 52.07)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 383.54 104.14)
-            (xy 387.35 104.14)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 383.54 156.21)
-            (xy 387.35 156.21)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 383.54 208.28)
-            (xy 387.35 208.28)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 383.54 256.54)
-            (xy 3.81 256.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 387.35 0)
-            (xy 387.35 260.35)
-            (xy 0 260.35)
-            (xy 0 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (text "${#}/${##}" (at 357.505 5.08 0)
-          (effects (font (size 2.54 2.54)) (justify left bottom))
-        )
-        (text "${CURRENT_DATE}" (at 344.17 10.16 0)
-          (effects (font (size 2.286 2.286)) (justify left bottom))
-        )
-        (text "${PROJECTNAME}" (at 344.17 15.24 0)
-          (effects (font (size 2.54 2.54)) (justify left bottom))
-        )
-        (text "1" (at 24.2094 1.905 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "1" (at 24.2094 258.445 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "2" (at 72.6281 1.905 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "2" (at 72.6281 258.445 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "3" (at 121.0469 1.905 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "3" (at 121.0469 258.445 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "4" (at 169.4656 1.905 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "4" (at 169.4656 258.445 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "5" (at 217.8844 1.905 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "5" (at 217.8844 258.445 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "6" (at 266.3031 1.905 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "6" (at 266.3031 258.445 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "7" (at 314.7219 1.905 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "7" (at 314.7219 258.445 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "8" (at 363.1406 1.905 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "8" (at 363.1406 258.445 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "A" (at 1.905 234.315 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "A" (at 385.445 234.315 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "B" (at 1.905 182.245 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "B" (at 385.445 182.245 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "C" (at 1.905 130.175 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "C" (at 385.445 130.175 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "D" (at 1.905 78.105 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "D" (at 385.445 78.105 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "E" (at 1.905 26.035 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "E" (at 385.445 26.035 0)
-          (effects (font (size 2.54 2.286)))
-        )
-        (text "Reference Designs ARE PROVIDED \"AS IS\" AND \"WITH ALL FAULTS. Arduino SA DISCLAIMS ALL OTHER WARRANTIES, EXPRESS OR IMPLIED,\nREGARDING PRODUCTS, INCLUDING BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A\nPARTICULAR PURPOSE\nArduino SA may make changes to specifications and product descriptions at any time, without notice. The Customer must not\nrely on the absence or characteristics of any features or instructions marked \"reserved\" or \"undefined.\" Arduino SA reserves\nthese for future definition and shall have no responsibility whatsoever for conflicts or incompatibilities arising from future changes to them.\nThe product information on the Web Site or Materials is subject to change without notice. Do not finalize a design with this info\nARDUINO and other Arduino brands and logos and Trademarks of Arduino SA. All Arduino SA Trademarks cannot be used without owner's formal permission\nThis file is licensed under : CC-SA-BY-NC" (at 381 25.4 900)
-          (effects (font (size 1.6764 1.4249)) (justify left bottom))
-        )
-        (text "Sheet:" (at 343.916 4.953 0)
-          (effects (font (size 2.54 2.54)) (justify left bottom))
         )
       )
     )
@@ -5932,7 +5478,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:VIN") (at 27.94 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 015b5652-dd24-451a-88a0-50d825e8b054)
-    (property "Reference" "#VIN1" (at 27.94 27.94 0)
+    (property "Reference" "#VIN01" (at 27.94 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VIN" (at 27.94 27.432 0)
@@ -5946,9 +5492,9 @@
     )
     (pin "1" (uuid b071695f-52ef-4b21-a548-e81d2246c008))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#VIN1") (unit 1)
+          (reference "#VIN01") (unit 1)
         )
       )
     )
@@ -5972,7 +5518,7 @@
     (pin "1" (uuid b2460447-7998-409d-bf2f-4597e744edc1))
     (pin "2" (uuid 5a2efedf-e1d3-47de-8721-aae1d62dc16b))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "C5") (unit 1)
         )
@@ -5983,7 +5529,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 220.98 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 04a85c7e-e01a-46e2-b38c-961d2fbe44ba)
-    (property "Reference" "#GND10" (at 220.98 73.66 0)
+    (property "Reference" "#GND010" (at 220.98 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 218.44 76.2 0)
@@ -5997,9 +5543,9 @@
     )
     (pin "1" (uuid 16445a6b-53d6-43c4-a8b0-896376fdfebb))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND10") (unit 1)
+          (reference "#GND010") (unit 1)
         )
       )
     )
@@ -6023,7 +5569,7 @@
     (pin "1" (uuid 3eb9919f-06b1-4897-a5be-cf97549fa803))
     (pin "2" (uuid db6ecf14-0728-4ebf-a2b9-463c40e57ac7))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "C2") (unit 1)
         )
@@ -6049,7 +5595,7 @@
     (pin "1" (uuid 0f076f38-c570-4794-8b67-e04a9539ea2a))
     (pin "2" (uuid df02dadc-cb0c-4787-be1a-7c7ebe6f851d))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "Z2") (unit 1)
         )
@@ -6075,7 +5621,7 @@
     (pin "1" (uuid d00ecbdb-73c1-4d52-a47b-e807383622cd))
     (pin "2" (uuid b74b1df1-d349-4dbf-8df0-0e366896f17e))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "Y1") (unit 1)
         )
@@ -6086,7 +5632,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 264.16 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d57063b-2ca4-4f2e-8d6e-4bbeaf567d55)
-    (property "Reference" "#GND12" (at 264.16 114.3 0)
+    (property "Reference" "#GND012" (at 264.16 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 261.62 116.84 0)
@@ -6100,9 +5646,9 @@
     )
     (pin "1" (uuid e9594163-32c1-4084-8034-b71c8cc15fd7))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND12") (unit 1)
+          (reference "#GND012") (unit 1)
         )
       )
     )
@@ -6111,7 +5657,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 358.14 68.58 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11afe9bc-6aa2-44c3-bfd3-ba328eb400b6)
-    (property "Reference" "#GND6" (at 358.14 68.58 0)
+    (property "Reference" "#GND06" (at 358.14 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 360.68 71.12 0)
@@ -6125,9 +5671,9 @@
     )
     (pin "1" (uuid c12d9cff-410e-4639-94b0-e255ccb53036))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND6") (unit 1)
+          (reference "#GND06") (unit 1)
         )
       )
     )
@@ -6153,7 +5699,7 @@
     (pin "3" (uuid aad29b18-0b8c-457d-ae02-7a43e6450430))
     (pin "4" (uuid 23abe7b7-9c6f-4e64-a5c0-b98ce74f2ef8))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "JP2") (unit 1)
         )
@@ -6183,7 +5729,7 @@
     (pin "5" (uuid 1bb9678b-0af6-418d-ad95-1f758d2cb3d6))
     (pin "6" (uuid 2f0fdcdb-ab1c-4b27-9cbe-9f1d3fdd0be3))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "ICSP0") (unit 1)
         )
@@ -6209,7 +5755,7 @@
     (pin "1" (uuid b2eb86b6-67bc-45b4-9c76-dee2a92c4aaf))
     (pin "2" (uuid 7f0ca5d1-9da2-493d-bf28-15ce24ac431f))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "C6") (unit 1)
         )
@@ -6234,7 +5780,7 @@
     )
     (pin "X" (uuid 2bc5316a-98e6-4054-9cf1-2c41be365213))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "TP_MOSI2") (unit 1)
         )
@@ -6259,7 +5805,7 @@
     )
     (pin "X" (uuid 8213f133-e864-40b2-bc90-27f2453fbf45))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "TP_TXL0") (unit 1)
         )
@@ -6270,7 +5816,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:+5V") (at 73.66 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1aa1246a-f70d-4bdb-b0da-1762b90d4072)
-    (property "Reference" "#P+10" (at 73.66 78.74 0)
+    (property "Reference" "#P+010" (at 73.66 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 75.565 76.2 0)
@@ -6284,9 +5830,9 @@
     )
     (pin "1" (uuid 151bbce8-bb62-4b9f-8444-5581d982fcc2))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#P+10") (unit 1)
+          (reference "#P+010") (unit 1)
         )
       )
     )
@@ -6309,7 +5855,7 @@
     )
     (pin "X" (uuid 10759504-e10d-4073-a25c-382f38630b39))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "ORIGIN0") (unit 1)
         )
@@ -6320,7 +5866,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 236.22 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1eabd172-22c9-4203-846a-ca15351d80e1)
-    (property "Reference" "#GND7" (at 236.22 73.66 0)
+    (property "Reference" "#GND07" (at 236.22 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 233.68 76.2 0)
@@ -6334,9 +5880,9 @@
     )
     (pin "1" (uuid 87648d55-66df-44c2-bf0b-74d7772a16cc))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND7") (unit 1)
+          (reference "#GND07") (unit 1)
         )
       )
     )
@@ -6358,7 +5904,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "FD1") (unit 1)
         )
@@ -6396,7 +5942,7 @@
     (pin "8" (uuid 59702793-d647-4392-9d3f-8583d00ad51f))
     (pin "9" (uuid 904b9ff9-c347-44ad-9b38-9c49efd4bb83))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "J1") (unit 1)
         )
@@ -6407,7 +5953,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 238.76 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2400d4c4-f4ac-4d45-9350-165e30ccc6d9)
-    (property "Reference" "#GND2" (at 238.76 190.5 0)
+    (property "Reference" "#GND02" (at 238.76 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.22 193.04 0)
@@ -6421,9 +5967,9 @@
     )
     (pin "1" (uuid 5bde6cf4-a816-4b9b-96bd-e0958fa3e9c3))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND2") (unit 1)
+          (reference "#GND02") (unit 1)
         )
       )
     )
@@ -6477,7 +6023,7 @@
     (pin "8" (uuid 17901dea-0958-4eb9-b3f8-c6dd64cff1e2))
     (pin "9" (uuid bfd8523c-31e8-46e2-a421-355246991bd2))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "U4") (unit 1)
         )
@@ -6488,7 +6034,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 378.46 53.34 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e4a6eb5-e84f-4ff7-9c6a-a851ed7ac9c1)
-    (property "Reference" "#GND5" (at 378.46 53.34 0)
+    (property "Reference" "#GND05" (at 378.46 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 375.92 50.8 0)
@@ -6502,9 +6048,9 @@
     )
     (pin "1" (uuid 984ea59b-b8c8-479a-a4a9-c8e5ddc8026d))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND5") (unit 1)
+          (reference "#GND05") (unit 1)
         )
       )
     )
@@ -6513,7 +6059,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 236.22 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ec761de-f710-44f4-8280-024eff1229b5)
-    (property "Reference" "#GND14" (at 236.22 91.44 0)
+    (property "Reference" "#GND014" (at 236.22 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.76 93.98 0)
@@ -6527,9 +6073,9 @@
     )
     (pin "1" (uuid f5b84612-a98b-4838-9033-587c9a6977f2))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND14") (unit 1)
+          (reference "#GND014") (unit 1)
         )
       )
     )
@@ -6553,7 +6099,7 @@
     (pin "+" (uuid 127f7d14-6ce4-4365-875f-b5c64a7f5406))
     (pin "-" (uuid 37f1560f-5456-4d61-acff-8a73ab6940cc))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "PC2") (unit 1)
         )
@@ -6579,7 +6125,7 @@
     (pin "1" (uuid a77fac13-ce51-41ce-b08f-8555f30366dd))
     (pin "2" (uuid 0cb4d780-3c89-4c58-8ca9-a46e3ed6e0be))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "C11") (unit 1)
         )
@@ -6590,7 +6136,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:+5V") (at 210.82 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30a5860c-5128-42f0-bf9d-6aaa85e89ade)
-    (property "Reference" "#P+3" (at 210.82 162.56 0)
+    (property "Reference" "#P+03" (at 210.82 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 212.725 160.02 0)
@@ -6604,9 +6150,9 @@
     )
     (pin "1" (uuid 74a0e8e1-188d-43d9-ad26-b64b67d5079f))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#P+3") (unit 1)
+          (reference "#P+03") (unit 1)
         )
       )
     )
@@ -6631,7 +6177,7 @@
     (pin "2" (uuid fe5e6e7b-bd95-4534-8af5-996c25bd99c1))
     (pin "3" (uuid b16ff0b1-dd27-464d-bf87-2586c9cc32ad))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "Y2") (unit 1)
         )
@@ -6659,7 +6205,7 @@
     (pin "3" (uuid 0d7aef82-12e5-4ebc-964d-a526edeeb6c5))
     (pin "4" (uuid cc9e2f95-4c32-4244-a1c7-eeb2b187b0b1))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "U1") (unit 1)
         )
@@ -6670,7 +6216,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:+3V3") (at 132.08 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 33d99e85-1b57-4c61-a156-256e4ec99c25)
-    (property "Reference" "#+3V1" (at 132.08 78.74 0)
+    (property "Reference" "#+3V01" (at 132.08 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 132.08 78.232 0)
@@ -6684,9 +6230,9 @@
     )
     (pin "1" (uuid 5d54f75d-b94b-4779-ab78-95800b9c87bc))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#+3V1") (unit 1)
+          (reference "#+3V01") (unit 1)
         )
       )
     )
@@ -6710,7 +6256,7 @@
     (pin "A" (uuid f3f1b1aa-1316-46bb-9d47-c47b2a84189a))
     (pin "C" (uuid 175f02af-b5e6-4d13-8326-73724709bcbf))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "L0") (unit 1)
         )
@@ -6735,7 +6281,7 @@
     )
     (pin "X" (uuid e3526f10-8129-4eaf-977f-482d7e37b14a))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "TP_VUCAP0") (unit 1)
         )
@@ -6761,7 +6307,7 @@
     (pin "+" (uuid 4059bdf1-943c-49a6-b90e-696d8d26b709))
     (pin "-" (uuid 58f23a73-7e70-4f86-9660-5c56dfb1d903))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "PC1") (unit 1)
         )
@@ -6793,7 +6339,7 @@
     (pin "4" (uuid 1dca8ac0-5472-4eb7-93e8-759907ce3c3e))
     (pin "5" (uuid ae0ec51c-53b2-4897-84ba-53cbe0cf52f2))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "RN1") (unit 3)
         )
@@ -6825,7 +6371,7 @@
     (pin "4" (uuid a4fa6cf3-f29b-4b0f-bf80-b11addc50490))
     (pin "8" (uuid 08eb39de-2568-4345-bfa9-733589e4c987))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "U5") (unit 3)
         )
@@ -6855,7 +6401,7 @@
     (pin "5" (uuid 1367b971-a303-4f91-863a-3e63316b010b))
     (pin "6" (uuid 845086d5-5b22-4b80-b4c2-e336fc7ff0c9))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "ICSP1") (unit 1)
         )
@@ -6879,7 +6425,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "FD3") (unit 1)
         )
@@ -6904,7 +6450,7 @@
     )
     (pin "X" (uuid 08b75d33-84e1-435e-a5f1-867d2ca2bfce))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "TP_5V1") (unit 1)
         )
@@ -6929,7 +6475,7 @@
     )
     (pin "X" (uuid 925c745a-17fc-412c-8833-592a0d0f21b1))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "TP_LL0") (unit 1)
         )
@@ -6955,7 +6501,7 @@
     (pin "1" (uuid 05db14bc-df31-4eee-a12c-9985f9425330))
     (pin "2" (uuid d625dd87-a2fc-430e-985e-714303b341e9))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "C1") (unit 1)
         )
@@ -6981,7 +6527,7 @@
     (pin "1" (uuid 4e830be1-d35f-446a-90e8-ea3c216f6c32))
     (pin "2" (uuid 59141dd1-8bb6-43e6-86f7-1009ae77bffe))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "R2") (unit 1)
         )
@@ -6992,7 +6538,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 284.48 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c3d11af-8f78-4dc5-880f-fda9098a947c)
-    (property "Reference" "#GND1" (at 284.48 129.54 0)
+    (property "Reference" "#GND01" (at 284.48 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 281.94 132.08 0)
@@ -7006,9 +6552,33 @@
     )
     (pin "1" (uuid a4e19766-5f7f-4759-9d4e-329191e80eae))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND1") (unit 1)
+          (reference "#GND01") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 5.08 114.3 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4c56b4a2-c7de-46c3-bcd5-9ab1a1a83066)
+    (property "Reference" "H2" (at 7.62 113.665 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 7.62 116.205 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580" (at 5.08 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 5.08 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "KiCad7xx_UnoTypeC_SMD"
+        (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
+          (reference "H2") (unit 1)
         )
       )
     )
@@ -7017,7 +6587,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:+5V") (at 228.6 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4eab6a69-8d3e-4d51-8898-dc268cda2953)
-    (property "Reference" "#P+8" (at 228.6 50.8 0)
+    (property "Reference" "#P+08" (at 228.6 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 230.505 48.26 0)
@@ -7031,9 +6601,9 @@
     )
     (pin "1" (uuid 7db1e974-5a9e-4f1c-b832-c87ea1fdaba1))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#P+8") (unit 1)
+          (reference "#P+08") (unit 1)
         )
       )
     )
@@ -7057,7 +6627,7 @@
     (pin "1" (uuid 8974c631-ba6e-42c7-b45b-7772fac5bb36))
     (pin "2" (uuid 454e567c-d81a-47ef-a6c1-687c1f0f1d01))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "C7") (unit 1)
         )
@@ -7068,7 +6638,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:+5V") (at 233.68 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55a055c5-ba41-442e-a051-ca765a758646)
-    (property "Reference" "#P+12" (at 233.68 175.26 0)
+    (property "Reference" "#P+012" (at 233.68 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 235.585 172.72 0)
@@ -7082,9 +6652,9 @@
     )
     (pin "1" (uuid d2920d16-d7ce-400c-a3e0-362c23b341c8))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#P+12") (unit 1)
+          (reference "#P+012") (unit 1)
         )
       )
     )
@@ -7093,7 +6663,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 200.66 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56c56e23-ce7a-4c7d-8e30-ca2e3f98f555)
-    (property "Reference" "#GND11" (at 200.66 73.66 0)
+    (property "Reference" "#GND011" (at 200.66 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 198.12 76.2 0)
@@ -7107,9 +6677,9 @@
     )
     (pin "1" (uuid 1bce61fc-7eb3-4a04-a0be-1c061ad8366a))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND11") (unit 1)
+          (reference "#GND011") (unit 1)
         )
       )
     )
@@ -7132,7 +6702,7 @@
     )
     (pin "X" (uuid 613f7924-5bf0-469c-a966-ac299352ceb6))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "TP_USH0") (unit 1)
         )
@@ -7164,7 +6734,7 @@
     (pin "4" (uuid 64f026b9-1ebe-4c65-a25e-9e8ef6a5f600))
     (pin "5" (uuid 27c1af51-de16-4701-a363-7b22807ff753))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "RN4") (unit 2)
         )
@@ -7189,7 +6759,7 @@
     )
     (pin "X" (uuid 1cdafb17-0403-4a2d-a362-9b63b6059e20))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "TP_ONL0") (unit 1)
         )
@@ -7215,7 +6785,7 @@
     (pin "A" (uuid 4cfbc259-2ed0-407b-8eea-47b44418a979))
     (pin "C" (uuid ccc0b37d-8e0e-4935-8973-f3528b87f5e7))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "D2") (unit 1)
         )
@@ -7226,7 +6796,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 142.24 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b969ac3-8602-4705-a4e1-16c1fcf67c42)
-    (property "Reference" "#GND19" (at 142.24 76.2 0)
+    (property "Reference" "#GND019" (at 142.24 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 139.7 78.74 0)
@@ -7240,9 +6810,9 @@
     )
     (pin "1" (uuid c31d5e6a-dfd9-4a59-bdcf-b298e28e1e66))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND19") (unit 1)
+          (reference "#GND019") (unit 1)
         )
       )
     )
@@ -7266,7 +6836,7 @@
     (pin "1" (uuid cce3a2c8-e59f-4722-ab98-f9764f736b01))
     (pin "2" (uuid 392e93d9-c714-4fc8-bd4e-21377c748179))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "L1") (unit 1)
         )
@@ -7298,7 +6868,7 @@
     (pin "4" (uuid 4b696e6a-4a04-4768-82fa-3dc2eebc5953))
     (pin "5" (uuid 40424e36-f99e-44bb-a2d6-618d2f6e0758))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "RN3") (unit 4)
         )
@@ -7309,7 +6879,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 208.28 149.86 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ee2902b-24b8-4fec-a6c7-0394b35f0f8c)
-    (property "Reference" "#GND3" (at 208.28 149.86 0)
+    (property "Reference" "#GND03" (at 208.28 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 147.32 0)
@@ -7323,9 +6893,9 @@
     )
     (pin "1" (uuid b4bfd744-516e-4758-bfc3-5367cf587d15))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND3") (unit 1)
+          (reference "#GND03") (unit 1)
         )
       )
     )
@@ -7348,7 +6918,7 @@
     )
     (pin "X" (uuid 3ca6e5c0-6ce2-4ab3-b220-ce3d26024f77))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "TP_RESET2") (unit 1)
         )
@@ -7373,7 +6943,7 @@
     )
     (pin "X" (uuid f6cd3628-30d6-4cb9-90f5-0bf2d8361aac))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "TP_GATE0") (unit 1)
         )
@@ -7402,7 +6972,7 @@
     (pin "4" (uuid c735fd60-fb2a-46d1-8d04-a8365d04d67c))
     (pin "5" (uuid ab0b58bd-7325-4720-8fc7-09389912b892))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "U2") (unit 1)
         )
@@ -7413,7 +6983,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 195.58 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6740fb65-684e-4ed5-bba3-fa316930f84f)
-    (property "Reference" "#GND15" (at 195.58 172.72 0)
+    (property "Reference" "#GND015" (at 195.58 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 175.26 0)
@@ -7427,9 +6997,9 @@
     )
     (pin "1" (uuid 45d27104-c4c5-4330-b31e-9237a73fded7))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND15") (unit 1)
+          (reference "#GND015") (unit 1)
         )
       )
     )
@@ -7459,7 +7029,7 @@
     (pin "4" (uuid 3bfd1b3e-1ac2-4c12-8245-9cc5d32a6bd3))
     (pin "8" (uuid a21e0274-7c8c-4b95-99d1-511e99775c11))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "U5") (unit 2)
         )
@@ -7470,7 +7040,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 327.66 132.08 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 690929b7-259c-4e36-bbef-0bf94fc2e1cd)
-    (property "Reference" "#GND13" (at 327.66 132.08 0)
+    (property "Reference" "#GND013" (at 327.66 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 325.12 129.54 0)
@@ -7484,9 +7054,9 @@
     )
     (pin "1" (uuid 369be9f6-a779-4a70-b227-37eff7e8c6e7))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND13") (unit 1)
+          (reference "#GND013") (unit 1)
         )
       )
     )
@@ -7495,7 +7065,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:+5V") (at 223.52 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7067d829-ef34-4156-b7b7-229f649ef37d)
-    (property "Reference" "#P+7" (at 223.52 182.88 0)
+    (property "Reference" "#P+07" (at 223.52 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 227.965 180.34 0)
@@ -7509,9 +7079,9 @@
     )
     (pin "1" (uuid e606ed9f-a9c0-45c5-b5c7-8cb6deea8f47))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#P+7") (unit 1)
+          (reference "#P+07") (unit 1)
         )
       )
     )
@@ -7535,7 +7105,7 @@
     (pin "1" (uuid 4bb4b2b2-cd8b-4f8d-95c8-66664e7e7c46))
     (pin "2" (uuid dafdde02-f109-458b-93c9-4cdb9856569b))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "L2") (unit 1)
         )
@@ -7560,7 +7130,7 @@
     )
     (pin "X" (uuid b0082c36-ee64-43bd-9f17-b14886e6a7da))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "TP_DTR0") (unit 1)
         )
@@ -7571,7 +7141,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:GND") (at 124.46 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 775bae8b-76af-4b70-8c6a-f0c8fd4d9e59)
-    (property "Reference" "#GND17" (at 124.46 78.74 0)
+    (property "Reference" "#GND017" (at 124.46 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.92 81.28 0)
@@ -7585,9 +7155,9 @@
     )
     (pin "1" (uuid f0a33516-03e9-4a11-8fd5-b66b44955ad0))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND17") (unit 1)
+          (reference "#GND017") (unit 1)
         )
       )
     )
@@ -7611,7 +7181,7 @@
     (pin "1" (uuid 484eeec1-7125-4846-b209-075df04925aa))
     (pin "2" (uuid 02016e53-f271-4eb1-9fc8-c635fbcb4b77))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "GROUND0") (unit 1)
         )
@@ -7641,7 +7211,7 @@
     (pin "P$1" (uuid 381c0594-b1b0-41e3-bae1-a28bf9f09449))
     (pin "P$2" (uuid 203a0323-c2de-48f2-979a-c9b3d8a7ec63))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "X2") (unit 1)
         )
@@ -7673,7 +7243,7 @@
     (pin "4" (uuid 490dec89-cfd4-4879-aacc-fdb1b11e0fca))
     (pin "5" (uuid 727f0866-7b3d-440b-a8e7-3d8bd117b6fb))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "RN2") (unit 1)
         )
@@ -7705,7 +7275,7 @@
     (pin "4" (uuid 23a5c688-f11a-413c-a574-d2a54adfb2bc))
     (pin "5" (uuid 0fcc8f84-072d-4f1c-aaee-764ac5931f87))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "RN2") (unit 4)
         )
@@ -7716,7 +7286,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 91.44 149.86 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c83f6e8-d0d5-4b72-9df4-e388da578f6d)
-    (property "Reference" "#GND8" (at 91.44 149.86 0)
+    (property "Reference" "#GND08" (at 91.44 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.9 147.32 0)
@@ -7730,9 +7300,9 @@
     )
     (pin "1" (uuid 5e36bef4-684c-4675-b36d-230a06686663))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND8") (unit 1)
+          (reference "#GND08") (unit 1)
         )
       )
     )
@@ -7756,7 +7326,7 @@
     (pin "1" (uuid 7772eaeb-80e8-47cf-ac2d-c7e16102f72d))
     (pin "2" (uuid 4db26449-56fd-4b1b-a434-fe022207cb33))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "C4") (unit 1)
         )
@@ -7767,7 +7337,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 86.36 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 81975d2e-79f2-4cc1-97eb-ac10ef4494e0)
-    (property "Reference" "#GND18" (at 86.36 53.34 0)
+    (property "Reference" "#GND018" (at 86.36 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 55.88 0)
@@ -7781,9 +7351,9 @@
     )
     (pin "1" (uuid b62f92e2-f2af-46ee-bc6b-db09f6d4b5a0))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND18") (unit 1)
+          (reference "#GND018") (unit 1)
         )
       )
     )
@@ -7807,7 +7377,7 @@
     (pin "1" (uuid fb0fe3ef-78ae-4d72-a8fb-f09f1602c7a3))
     (pin "2" (uuid 689c600c-337f-4512-bcc8-48c4ef540b37))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "C3") (unit 1)
         )
@@ -7818,7 +7388,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:+5V") (at 210.82 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8396ec76-8aa5-4778-b5fb-57da05d2f02b)
-    (property "Reference" "#P+5" (at 210.82 83.82 0)
+    (property "Reference" "#P+05" (at 210.82 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 212.725 81.28 0)
@@ -7832,9 +7402,9 @@
     )
     (pin "1" (uuid 467b54f3-03a6-4cb1-8539-3efff1156968))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#P+5") (unit 1)
+          (reference "#P+05") (unit 1)
         )
       )
     )
@@ -7864,33 +7434,9 @@
     (pin "4" (uuid 0c2bde1e-8536-4559-8941-56a3abafa239))
     (pin "5" (uuid 8c4ccd97-a2bf-47f8-9227-588ad19aa8a2))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "RN4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "UNOSMD_V3-eagle-import:A3-FRAME-STANDARD") (at 17.78 279.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 89d896e6-ef58-48f1-b9e2-d04d23167c19)
-    (property "Reference" "FRAME1" (at 17.78 279.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "DNP" (at 17.78 279.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "UNOSMD_V3:FRAME" (at 17.78 279.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 17.78 279.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "UNOSMD_V3"
-        (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "FRAME1") (unit 1)
         )
       )
     )
@@ -7920,7 +7466,7 @@
     (pin "4" (uuid 17a62e22-ad18-4b3e-9125-663dc491208b))
     (pin "5" (uuid b30180cd-3dad-429d-a9f9-85ad5fb242f5))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "RN2") (unit 2)
         )
@@ -7931,7 +7477,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:+5V") (at 99.06 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8b825859-cde0-4113-96ba-3847aa5f7489)
-    (property "Reference" "#P+11" (at 99.06 106.68 0)
+    (property "Reference" "#P+011" (at 99.06 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 100.965 104.14 0)
@@ -7945,9 +7491,9 @@
     )
     (pin "1" (uuid bb5e4dee-f9c1-42ab-89cb-b3344c161f32))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#P+11") (unit 1)
+          (reference "#P+011") (unit 1)
         )
       )
     )
@@ -7971,7 +7517,7 @@
     (pin "1" (uuid 75d268ff-4c4d-4c33-a096-04b6b6a87748))
     (pin "2" (uuid d04f8dca-140f-4b84-842e-346acdb800a9))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "F1") (unit 1)
         )
@@ -8028,7 +7574,7 @@
     (pin "9" (uuid a80dde78-5621-4ef5-acaa-2e70f48eb7c8))
     (pin "EXP" (uuid d591fe0f-34fb-4457-91ee-8f13bb1b1ee0))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "U3") (unit 1)
         )
@@ -8057,7 +7603,7 @@
     (pin "4" (uuid 5bbe3d62-9d6b-4ca9-b277-21e881306187))
     (pin "5" (uuid 985725e2-f1db-4a2e-b8df-501d6a52bcac))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "RESET0") (unit 1)
         )
@@ -8083,7 +7629,7 @@
     (pin "1" (uuid 2f310fef-f0d4-4bd9-90f4-d896bfc3dc68))
     (pin "2" (uuid 93e5fa25-6b6f-4316-8f12-079d5bbc471e))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "C10") (unit 1)
         )
@@ -8115,7 +7661,7 @@
     (pin "4" (uuid 9bc98fe5-3d21-4f3b-8d2f-b75d61f86687))
     (pin "5" (uuid 31f72848-1361-463e-ab11-79f79c96cbbb))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "RN3") (unit 3)
         )
@@ -8126,7 +7672,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:+5V") (at 109.22 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b26cb01-07bb-4533-bc09-464b845dcdae)
-    (property "Reference" "#P+6" (at 109.22 162.56 0)
+    (property "Reference" "#P+06" (at 109.22 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 111.125 160.02 0)
@@ -8140,9 +7686,9 @@
     )
     (pin "1" (uuid 2d2e93a4-8040-409b-a0a8-0c3bba0a2ae3))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#P+6") (unit 1)
+          (reference "#P+06") (unit 1)
         )
       )
     )
@@ -8166,7 +7712,7 @@
     (pin "1" (uuid 913c7601-0143-4901-b4af-787e8376319a))
     (pin "2" (uuid dba56661-b635-42b6-bbdc-0006de60fc10))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "R1") (unit 1)
         )
@@ -8198,7 +7744,7 @@
     (pin "4" (uuid 78eb0a88-2e1b-4b9b-8ef8-177e18eef7c1))
     (pin "5" (uuid e743b387-667f-43c4-af8c-a80a92ff5266))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "RN4") (unit 3)
         )
@@ -8224,9 +7770,33 @@
     (pin "1" (uuid 6dd45d20-29ff-4d31-88f8-2c198142a6a9))
     (pin "2" (uuid ab23f7bd-d906-4bda-9c9b-85c9009913a0))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "Z1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 6.35 125.73 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a1ab4666-e2dd-401e-a4d1-d59af55d545a)
+    (property "Reference" "H4" (at 8.89 125.095 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 8.89 127.635 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580" (at 6.35 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 6.35 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "KiCad7xx_UnoTypeC_SMD"
+        (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -8249,7 +7819,7 @@
     )
     (pin "X" (uuid 1d9431e5-519d-4ea7-bfec-a80119107987))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "TP_TX0") (unit 1)
         )
@@ -8281,7 +7851,7 @@
     (pin "4" (uuid c30f5f17-a5a8-400e-bed0-7d5983643874))
     (pin "5" (uuid 19d0490e-19af-4656-a97c-6f34ad75bf47))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "RN2") (unit 3)
         )
@@ -8307,7 +7877,7 @@
     (pin "1" (uuid 0537de27-d6e1-4f06-b88e-b7c483b2cc35))
     (pin "2" (uuid c24b7918-add3-494e-9b4e-805dffef703b))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "RESET-EN0") (unit 1)
         )
@@ -8339,7 +7909,7 @@
     (pin "4" (uuid 31eed118-c85d-46ee-8462-c452af99614b))
     (pin "5" (uuid 7cac5b87-9fe8-4d8b-bf05-fa35a8b07b43))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "RN1") (unit 1)
         )
@@ -8350,7 +7920,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:+3V3") (at 358.14 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9c6c09f-09bd-4536-ac80-11213d0192b6)
-    (property "Reference" "#+3V2" (at 358.14 48.26 0)
+    (property "Reference" "#+3V02" (at 358.14 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 358.14 47.752 0)
@@ -8364,9 +7934,9 @@
     )
     (pin "1" (uuid c775aadb-547a-4fc2-bdde-8159ea8a893b))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#+3V2") (unit 1)
+          (reference "#+3V02") (unit 1)
         )
       )
     )
@@ -8389,7 +7959,7 @@
     )
     (pin "X" (uuid 39e48f4e-0e5b-4433-860d-64024be23b96))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "TP_CMP0") (unit 1)
         )
@@ -8415,7 +7985,7 @@
     (pin "A" (uuid d74b884a-8d7c-45b9-a149-13df8efc667a))
     (pin "C" (uuid 406b8bcb-b24a-49a9-bc3f-10bc1dae975e))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "D1") (unit 1)
         )
@@ -8441,7 +8011,7 @@
     (pin "A" (uuid dcbcab2c-cd64-4123-9594-0647cfcbe7d5))
     (pin "C" (uuid 218b7bb1-787a-4ced-bc00-b0a77b8f487a))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "RX0") (unit 1)
         )
@@ -8483,7 +8053,7 @@
     (pin "8" (uuid bac1b3dd-5e40-4fee-b697-329134e0717a))
     (pin "9" (uuid 9baf1382-b808-4878-aaec-0268f53c5d58))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "J2") (unit 1)
         )
@@ -8494,7 +8064,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 114.3 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc1a2979-8462-42e4-a92a-eba99ca57a8c)
-    (property "Reference" "#GND23" (at 114.3 198.12 0)
+    (property "Reference" "#GND023" (at 114.3 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 200.66 0)
@@ -8508,9 +8078,9 @@
     )
     (pin "1" (uuid 8be0449e-4d76-426e-b4cd-2b61fdc9442d))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND23") (unit 1)
+          (reference "#GND023") (unit 1)
         )
       )
     )
@@ -8519,7 +8089,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:VIN") (at 360.68 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c232d60d-c8b1-4697-a37d-7526bc59a678)
-    (property "Reference" "#VIN2" (at 360.68 53.34 0)
+    (property "Reference" "#VIN02" (at 360.68 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VIN" (at 360.68 52.832 0)
@@ -8533,9 +8103,9 @@
     )
     (pin "1" (uuid a553c84e-9e0e-4c13-9e51-a3ef616e3a33))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#VIN2") (unit 1)
+          (reference "#VIN02") (unit 1)
         )
       )
     )
@@ -8565,7 +8135,7 @@
     (pin "4" (uuid b663a227-dc73-4ddb-b5fb-48d6ba687eb2))
     (pin "5" (uuid 0313e553-290c-46d5-9d6d-127435518df7))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "RN4") (unit 4)
         )
@@ -8597,9 +8167,33 @@
     (pin "4" (uuid 3202ff82-7618-435f-b607-3c4882d56ae3))
     (pin "8" (uuid bf64ee32-73ca-4e20-8509-436b5ef13dbb))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "U5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 5.08 109.22 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c752851e-43c4-42cb-9212-9eb0ae3d9702)
+    (property "Reference" "H1" (at 7.62 108.585 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 7.62 111.125 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580" (at 5.08 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 5.08 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "KiCad7xx_UnoTypeC_SMD"
+        (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -8629,7 +8223,7 @@
     (pin "4" (uuid aa972563-dfef-4bf6-9072-000327e8d606))
     (pin "5" (uuid 7a3f8c1f-acf7-4897-9fe6-8960c9ac0e3f))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "RN3") (unit 1)
         )
@@ -8640,7 +8234,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:+5V") (at 228.6 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9674b40-e2a6-47c6-bcda-a55946d312d6)
-    (property "Reference" "#P+2" (at 228.6 129.54 0)
+    (property "Reference" "#P+02" (at 228.6 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 230.505 127 0)
@@ -8654,9 +8248,9 @@
     )
     (pin "1" (uuid 34d8c8c3-ed84-45df-bfbe-d5149141ff4d))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#P+2") (unit 1)
+          (reference "#P+02") (unit 1)
         )
       )
     )
@@ -8680,7 +8274,7 @@
     (pin "A" (uuid 5d062257-7b7d-42af-add5-5bf61264f0e4))
     (pin "C" (uuid 1b2f4ee3-dd03-4b0c-9643-35fcfab0131c))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "TX0") (unit 1)
         )
@@ -8712,7 +8306,7 @@
     (pin "4" (uuid adb1071d-a28e-4ae9-8464-4032650b5061))
     (pin "5" (uuid 7d0b49e0-00e0-49d5-abd8-f0949fa2e188))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "RN3") (unit 2)
         )
@@ -8739,7 +8333,7 @@
     (pin "2" (uuid 13116518-6c7b-432f-bb9d-30051901bf18))
     (pin "3" (uuid e06f040a-baf7-44bc-9fed-177d21e3930b))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "T1") (unit 1)
         )
@@ -8750,7 +8344,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:GND") (at 73.66 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf476c9e-ba44-4195-a1f0-ba614f97683a)
-    (property "Reference" "#GND16" (at 73.66 195.58 0)
+    (property "Reference" "#GND016" (at 73.66 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.12 198.12 0)
@@ -8764,9 +8358,9 @@
     )
     (pin "1" (uuid 6c05943d-a7bb-450d-b0ab-345f5f3a97ad))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND16") (unit 1)
+          (reference "#GND016") (unit 1)
         )
       )
     )
@@ -8790,7 +8384,7 @@
     (pin "A" (uuid 164f2ca0-1bb7-4124-8707-1edea4be7ed4))
     (pin "C" (uuid e257c159-2084-4ad6-8fac-cb18e4d404a5))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "D3") (unit 1)
         )
@@ -8801,7 +8395,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 182.88 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0a0c67c-0d7e-44c7-a6da-654c3902619c)
-    (property "Reference" "#GND9" (at 182.88 73.66 0)
+    (property "Reference" "#GND09" (at 182.88 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.34 76.2 0)
@@ -8815,9 +8409,33 @@
     )
     (pin "1" (uuid 0e4bb45d-5f73-4921-b238-297b7eb87701))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND9") (unit 1)
+          (reference "#GND09") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 6.35 120.65 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d15bce4f-8d64-4cd7-8633-14e9945cb431)
+    (property "Reference" "H3" (at 8.89 120.015 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 8.89 122.555 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580" (at 6.35 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 6.35 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "KiCad7xx_UnoTypeC_SMD"
+        (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -8826,7 +8444,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 218.44 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1f8e125-666d-4804-af43-7191436371d7)
-    (property "Reference" "#GND24" (at 218.44 180.34 0)
+    (property "Reference" "#GND024" (at 218.44 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 215.9 182.88 0)
@@ -8840,9 +8458,9 @@
     )
     (pin "1" (uuid 3f6e7f80-101a-4df1-9442-68276cf1955e))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND24") (unit 1)
+          (reference "#GND024") (unit 1)
         )
       )
     )
@@ -8866,7 +8484,7 @@
     (pin "1" (uuid 64fe53c7-26a4-4b61-bf0c-1f9f82fef1cb))
     (pin "2" (uuid e63d5353-a7ff-452b-9c4f-bd29b1e2605d))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "C9") (unit 1)
         )
@@ -8891,7 +8509,7 @@
     )
     (pin "X" (uuid 49915e7a-53f2-4362-9b6b-00c52bff815b))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "TP_RXL0") (unit 1)
         )
@@ -8923,7 +8541,7 @@
     (pin "4" (uuid be18ed8a-36bf-4ee1-9134-1a18eee7380a))
     (pin "5" (uuid bed3849b-64f2-4340-80cb-24b06b8a5d2c))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "RN1") (unit 2)
         )
@@ -8948,7 +8566,7 @@
     )
     (pin "X" (uuid d0399de9-b209-47c3-85bd-2493b12ae2ea))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "TP_SCK2") (unit 1)
         )
@@ -8959,7 +8577,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:+5V") (at 355.6 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d98704a2-02c1-414d-938c-d00855c75040)
-    (property "Reference" "#P+13" (at 355.6 43.18 0)
+    (property "Reference" "#P+013" (at 355.6 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 357.505 40.64 0)
@@ -8973,9 +8591,9 @@
     )
     (pin "1" (uuid 72d0095f-551e-4aec-87f8-4ebf29d6fb8d))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#P+13") (unit 1)
+          (reference "#P+013") (unit 1)
         )
       )
     )
@@ -8984,7 +8602,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 132.08 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da32bf30-d147-41ad-a13b-7f8d40209670)
-    (property "Reference" "#GND21" (at 132.08 99.06 0)
+    (property "Reference" "#GND021" (at 132.08 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 129.54 101.6 0)
@@ -8998,9 +8616,9 @@
     )
     (pin "1" (uuid ac6c8355-3e56-4063-8fb6-25f31db4d75f))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND21") (unit 1)
+          (reference "#GND021") (unit 1)
         )
       )
     )
@@ -9023,7 +8641,7 @@
     )
     (pin "X" (uuid 62699fb6-e6b6-454b-bbeb-0ef11cfe6878))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "TP_RX0") (unit 1)
         )
@@ -9048,7 +8666,7 @@
     )
     (pin "X" (uuid 0feffd69-7586-4110-a1d9-8b94b5d6db64))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "TP_LCMD0") (unit 1)
         )
@@ -9059,7 +8677,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 27.94 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df2fed9a-f361-42fc-a352-3cdc85d1f78a)
-    (property "Reference" "#GND20" (at 27.94 66.04 0)
+    (property "Reference" "#GND020" (at 27.94 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 25.4 68.58 0)
@@ -9073,9 +8691,9 @@
     )
     (pin "1" (uuid ae14da2e-6db2-4328-83ca-b461638d7f0b))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND20") (unit 1)
+          (reference "#GND020") (unit 1)
         )
       )
     )
@@ -9097,7 +8715,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "FD2") (unit 1)
         )
@@ -9123,7 +8741,7 @@
     (pin "1" (uuid 37c1521d-e250-4214-ae34-2a040b6c5d34))
     (pin "2" (uuid bb274f62-4fc7-49c1-abac-6e1b602b3b10))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "C8") (unit 1)
         )
@@ -9134,7 +8752,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 88.9 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3da418f-c265-44dd-aa70-95d7c4a8c1f1)
-    (property "Reference" "#GND4" (at 88.9 99.06 0)
+    (property "Reference" "#GND04" (at 88.9 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 101.6 0)
@@ -9148,9 +8766,9 @@
     )
     (pin "1" (uuid d932b3ea-5c6c-464d-9b9d-f579311a33da))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND4") (unit 1)
+          (reference "#GND04") (unit 1)
         )
       )
     )
@@ -9159,7 +8777,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:+5V") (at 86.36 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7a17c4c-ee5c-4339-b41d-dcae150dd159)
-    (property "Reference" "#P+9" (at 86.36 27.94 0)
+    (property "Reference" "#P+09" (at 86.36 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 88.265 25.4 0)
@@ -9173,9 +8791,9 @@
     )
     (pin "1" (uuid e2b8b2df-014a-4031-af41-0089491296d5))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#P+9") (unit 1)
+          (reference "#P+09") (unit 1)
         )
       )
     )
@@ -9184,7 +8802,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:Arduino-supply_GND") (at 99.06 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8920628-e1bb-4058-997d-d314494c0a84)
-    (property "Reference" "#GND22" (at 99.06 129.54 0)
+    (property "Reference" "#GND022" (at 99.06 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 132.08 0)
@@ -9198,9 +8816,9 @@
     )
     (pin "1" (uuid f5eda8f7-3d8d-4324-8f6d-2271046315df))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#GND22") (unit 1)
+          (reference "#GND022") (unit 1)
         )
       )
     )
@@ -9224,7 +8842,7 @@
     (pin "A" (uuid 91fa1f64-88c5-4f69-8498-658ff1f553d0))
     (pin "C" (uuid e9eb58f9-13fc-4835-92f3-03afe41d21a6))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "ON0") (unit 1)
         )
@@ -9249,7 +8867,7 @@
     )
     (pin "X" (uuid bbe3c5db-69bd-4fce-8985-c365f8169830))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "TP_MISO2") (unit 1)
         )
@@ -9281,7 +8899,7 @@
     (pin "4" (uuid c6907d1a-70cb-471c-a145-61e65ac0b01c))
     (pin "5" (uuid c4295413-9d0a-4947-a180-b17615a7f787))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "RN1") (unit 4)
         )
@@ -9292,7 +8910,7 @@
   (symbol (lib_id "UNOSMD_V3-eagle-import:+5V") (at 287.02 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f35f403d-6c52-48e9-85f4-8af404638930)
-    (property "Reference" "#P+1" (at 287.02 116.84 0)
+    (property "Reference" "#P+01" (at 287.02 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 288.925 114.3 0)
@@ -9306,9 +8924,9 @@
     )
     (pin "1" (uuid 1e23578d-f0cf-4a79-b4e0-8f4e61868bcd))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
-          (reference "#P+1") (unit 1)
+          (reference "#P+01") (unit 1)
         )
       )
     )
@@ -9333,7 +8951,7 @@
     (pin "2" (uuid 1ed0fec2-0ce8-430f-9119-79a6a932adb0))
     (pin "3" (uuid 699863b8-ee66-47ab-8e46-c79b8595fec9))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "X1") (unit 1)
         )
@@ -9358,7 +8976,7 @@
     )
     (pin "X" (uuid 9b08b936-98df-4525-932d-62645244f2f6))
     (instances
-      (project "UNOSMD_V3"
+      (project "KiCad7xx_UnoTypeC_SMD"
         (path "/a7599d81-3c40-47b2-86ef-613d133f34b5"
           (reference "TP_USBVCC0") (unit 1)
         )
