@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "UNOSMD_V3-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/UNOSMD_V3-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "Texas_OPAmpDual_LMV358IDGKR_SnapEDA")(type "KiCad")(uri "/Users/user/src/github.com/hirotaka42/KiCad_UnoTypeC/Hardware/3rdparty/Texas_OPAmpDual_LMV358IDGKR_VSSOP-8/Symbol/Texas_OPAmpDual_LMV358IDGKR_SnapEDA.kicad_sym")(options "")(descr ""))
 )
