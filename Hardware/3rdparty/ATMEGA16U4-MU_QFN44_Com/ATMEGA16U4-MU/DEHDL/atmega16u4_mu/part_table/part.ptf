@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ATMEGA16U4_MU'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "ATMEGA16U4-MU" (!) = "", "QFN50P700X700X100-45N-D", "Quad Flat No-Lead", "556-ATMEGA16U4-MU", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/ATMEGA16U4-MU?qs=JV7lzlMm3yJIv2SnL088SQ%3D%3D", "ATMEGA16U4-MU", "https://www.arrow.com/en/products/atmega16u4-mu/microchip-technology", "8-bit Microcontrollers - MCU AVR USB 16K FLASH", "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Summary.pdf", "1 mm"
+END_PART
+
+END.

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ATMEGA16U4-MU"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-08-25-23:28:37)
+    (mountForm default
+        (footprintRef "QFN50P700X700X100-45N-D")
+        (spec "System")
+    )
+)

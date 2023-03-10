@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BCM857BS
+D NEXPERIA - BCM857BS - TRANSISTOR, MATCHED, SOT-363
+K
+F https://assets.nexperia.com/documents/data-sheet/BCM857BV_BS_DS.pdf
+$ENDCMP
+#
+#End Doc Library

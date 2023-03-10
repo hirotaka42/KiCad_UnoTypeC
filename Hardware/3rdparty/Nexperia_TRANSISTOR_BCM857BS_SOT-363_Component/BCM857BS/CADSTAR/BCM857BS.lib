@@ -1,0 +1,18 @@
+.BCM857BS :1 ;NEXPERIA - BCM857BS - TRANSISTOR, MATCHED, SOT-363
+SOT65P210X110-6N
+*STM Q
+*NGS
+*PLB 1="EMITTER TR1" 2="BASE TR1" 3="COLLECTOR TR2" 4="EMITTER TR2" 5="BASE TR2" 6="COLLECTOR TR1"
+*MXP 6
+*DFN BCM857BS
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (BCM857BS)
+~!Mouser Part Number (N/A)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/BCM857BV_BS_DS.pdf)
+~!Height (1.1mm)
+~!3D_Model (BCM857BS)
+BCM857BS
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

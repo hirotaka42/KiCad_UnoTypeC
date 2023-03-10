@@ -1,0 +1,134 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "BCM857BS"
+   (description "NEXPERIA - BCM857BS - TRANSISTOR, MATCHED, SOT-363")
+   (family "TRX")
+   (package "SOT65P210X110-6N")
+   (attribute "Datasheet Link" "https://assets.nexperia.com/documents/data-sheet/BCM857BV_BS_DS.pdf")
+   (attribute "Geometry.Height" "1.1mm")
+   (attribute "Manufacturer_Name" "Nexperia")
+   (attribute "Manufacturer_Part_Number" "BCM857BS")
+   (attribute "Mouser Part Number" "N/A")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "BCM857BS")
+    (pin "EMITTER_TR1" 1 PS)
+    (pin "BASE_TR1" 2 PS)
+    (pin "COLLECTOR_TR2" 3 PS)
+    (pin "COLLECTOR_TR1" 6 PS)
+    (pin "BASE_TR2" 5 PS)
+    (pin "EMITTER_TR2" 4 PS)
+   )
+  )
+  (symbol "BCM857BS"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1800 100) (pt 1800 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2000 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOT65P210X110-6N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.7 1.35)
+      (pt 1.7 1.35)
+      (pt 1.7 -1.35)
+      (pt -1.7 -1.35)
+      (pt -1.7 1.35))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.625 1)
+      (pt 0.625 1)
+      (pt 0.625 -1)
+      (pt -0.625 -1)
+      (pt -0.625 1))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.625 0.35)
+      (pt 0.025 1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.1 1)
+      (pt 0.1 1)
+      (pt 0.1 -1)
+      (pt -0.1 -1)
+      (pt -0.1 1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.45 1.225)
+      (pt -0.45 1.225))))
+   (leg 1 (pt -0.95 0.65) (padstack 0))
+   (leg 2 (pt -0.95 0) (padstack 0))
+   (leg 3 (pt -0.95 -0.65) (padstack 0))
+   (leg 4 (pt 0.95 -0.65) (padstack 0))
+   (leg 5 (pt 0.95 0) (padstack 0))
+   (leg 6 (pt 0.95 0.65) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.45 1 0 0 0))
+   )
+   (model "BCM857BS.stp"
+    (euler 90 0 90)
+    (offset -1.6299999952316284 -0.8999999761581421 -0.7300000190734863)
+   )
+  )
+ )
+)

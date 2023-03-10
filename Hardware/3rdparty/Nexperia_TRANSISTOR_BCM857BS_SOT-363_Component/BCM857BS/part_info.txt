@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=BCM857BS
+PartCategory=Transistor
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=2.1
+Released=2017-12-20 10:11:03
+Downloaded=2023-03-09 13:18:18
+3D=Y

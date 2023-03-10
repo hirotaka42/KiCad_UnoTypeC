@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "UNOSMD_V3")(type "KiCad")(uri "${KIPRJMOD}/UNOSMD_V3.pretty")(options "")(descr ""))
   (lib (name "CustomParts")(type "KiCad")(uri "${KIPRJMOD}/CustomParts")(options "")(descr ""))
+  (lib (name "Nexperia_TRANSISTOR_BCM857BS_SOT-363_Component")(type "KiCad")(uri "/Users/user/src/github.com/hirotaka42/KiCad_UnoTypeC/Hardware/3rdparty/Nexperia_TRANSISTOR_BCM857BS_SOT-363_Component")(options "")(descr ""))
+  (lib (name "footprint")(type "KiCad")(uri "${KIPRJMOD}/_Adobe/footprint")(options "")(descr ""))
 )
