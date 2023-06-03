@@ -4,6 +4,13 @@
 # MacOS
 *.DS_Store
 
+# 3rdParty Models
+Hardware/3rdparty/*
+!Hardware/3rdparty/Connecter/
+Hardware/3rdparty/Connecter/*
+!Hardware/3rdparty/Connecter/HRO_TYPE-C-31-M-12
+Hardware/3rdparty/Connecter/HRO_TYPE-C-31-M-12/*
+
 # Temporary files
 *.000
 *.bak
