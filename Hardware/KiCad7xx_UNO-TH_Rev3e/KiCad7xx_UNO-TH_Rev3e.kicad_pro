@@ -391,7 +391,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "UNO-TH_Rev3e.kicad_pro",
+    "filename": "KiCad7xx_UNO-TH_Rev3e.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -561,6 +561,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "empty.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -574,7 +582,7 @@
   "sheets": [
     [
       "8e3a0656-3ad3-4f2f-80b6-2a615b772120",
-      "UNO-TH_Rev3e_0"
+      ""
     ]
   ],
   "text_variables": {}
