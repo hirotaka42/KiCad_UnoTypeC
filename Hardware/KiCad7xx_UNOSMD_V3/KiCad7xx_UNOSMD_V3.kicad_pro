@@ -391,7 +391,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "UNOSMD_V3.kicad_pro",
+    "filename": "KiCad7xx_UNOSMD_V3.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -578,7 +578,7 @@
   "sheets": [
     [
       "d0e6deaf-1f53-4aef-8d1c-efd362921a61",
-      "UNOSMD_V3_0"
+      ""
     ]
   ],
   "text_variables": {}
