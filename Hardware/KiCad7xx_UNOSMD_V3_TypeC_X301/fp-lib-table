@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "UNOSMD_V3")(type "KiCad")(uri "$(KIPRJMOD)/KiCad7xx_UNOSMD_V3_TypeC_X301.pretty")(options "")(descr ""))
+  (lib (name "HRO_TYPE-C-31-M-12")(type "KiCad")(uri "/Users/user/src/github.com/hirotaka42/KiCad_UnoTypeC/Hardware/3rdparty/Connecter/HRO_TYPE-C-31-M-12")(options "")(descr ""))
+  (lib (name "BCM857BS_SOT-363")(type "KiCad")(uri "/Users/user/src/github.com/hirotaka42/KiCad_UnoTypeC/Hardware/3rdparty/Transistor/BCM857BS_SOT-363")(options "")(descr ""))
+)
