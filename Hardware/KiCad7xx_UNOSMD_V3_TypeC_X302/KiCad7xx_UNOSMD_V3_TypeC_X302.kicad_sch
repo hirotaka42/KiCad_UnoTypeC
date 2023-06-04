@@ -9402,7 +9402,7 @@
     (property "Value" "ATMEGAXX8-MUR" (at 250.825 203.835 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Footprint" "UNOSMD_V3:MLF32" (at 266.7 170.18 0)
+    (property "Footprint" "Package_QFP:TQFP-32_7x7mm_P0.8mm" (at 266.7 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 266.7 170.18 0)
