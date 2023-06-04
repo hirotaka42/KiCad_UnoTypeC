@@ -1,0 +1,38 @@
+(footprint "L1812" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "<b>INDUCTOR</b><p>\nchip")
+  (fp_text reference "REF**" (at -1.905 -1.905) (layer "F.SilkS")
+      (effects (font (size 1.1684 1.1684) (thickness 0.1016)) (justify left bottom))
+    (tstamp 8694beb6-452a-4051-8e67-b4ea47ecc0e7)
+  )
+  (fp_text value "L1812" (at -1.905 3.175) (layer "F.Fab")
+      (effects (font (size 1.1684 1.1684) (thickness 0.1016)) (justify left bottom))
+    (tstamp 5b136cd6-f290-45cd-821d-a4a49b66b6e7)
+  )
+  (fp_line (start -1.4732 -1.6002) (end 1.4732 -1.6002)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp 823a5415-bba9-4dd6-bd8f-2124296a773e))
+  (fp_line (start -1.4478 1.6002) (end 1.4732 1.6002)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp 0f70a5fb-6a35-46a2-abd6-e8ef5652f3c5))
+  (fp_poly
+    (pts
+      (xy -2.3876 1.651)
+      (xy -1.4376 1.651)
+      (xy -1.4376 -1.649)
+      (xy -2.3876 -1.649)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 8347dbe6-e859-4b6c-8352-9b53b9e13c92))
+  (fp_poly
+    (pts
+      (xy 1.4478 1.651)
+      (xy 2.3978 1.651)
+      (xy 2.3978 -1.649)
+      (xy 1.4478 -1.649)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 4eb77de3-e62b-4ea5-a0b8-9d81847ba2a6))
+  (pad "1" smd roundrect (at -1.95 0) (size 1.9 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
+    (solder_mask_margin 0.0508) (solder_paste_margin -0.095) (thermal_bridge_angle 45) (tstamp 3f714ae1-4b01-40c6-9b97-6f0471adaef8))
+  (pad "2" smd roundrect (at 1.95 0) (size 1.9 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05)
+    (solder_mask_margin 0.0508) (solder_paste_margin -0.095) (thermal_bridge_angle 45) (tstamp 6a1eb6e9-c9b6-433b-8d6d-cb3017a8fe79))
+)
