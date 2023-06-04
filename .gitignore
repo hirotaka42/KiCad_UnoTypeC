@@ -10,6 +10,14 @@ Hardware/3rdparty/*
 Hardware/3rdparty/Connecter/*
 !Hardware/3rdparty/Connecter/HRO_TYPE-C-31-M-12
 Hardware/3rdparty/Connecter/HRO_TYPE-C-31-M-12/*
+!Hardware/3rdparty/Connecter/HRO_TYPE-C-31-M-12/.gitkeep
+
+!Hardware/3rdparty/Transistor/
+Hardware/3rdparty/Transistor/*
+!Hardware/3rdparty/Transistor/BCM857BS_SOT-363
+Hardware/3rdparty/Transistor/BCM857BS_SOT-363/*
+!Hardware/3rdparty/Transistor/BCM857BS_SOT-363/.gitkeep
+
 
 # Temporary files
 *.000
